@@ -1,0 +1,218 @@
+CRITICAL - 2023-05-23 22:10:12 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Models\Banco_Query.php on line 17.
+ 1 APPPATH\Controllers\Dados.php(31): App\Models\Banco_Query->cadastrarAnimal('Jack', 'Gato', 'Siamês', '2 Anos', null, '1111-11-11', Object(mysqli_result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:13:41 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Models\Banco_Query.php on line 17.
+ 1 APPPATH\Controllers\Dados.php(31): App\Models\Banco_Query->cadastrarAnimal('Jack', 'Gato', 'Siamês', '2 Anos', null, '1111-11-11', Object(mysqli_result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:13:44 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Models\Banco_Query.php on line 17.
+ 1 APPPATH\Controllers\Dados.php(31): App\Models\Banco_Query->cadastrarAnimal('Jack', 'Gato', 'Siamês', '2 Anos', null, '1111-11-11', Object(mysqli_result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:17:37 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Models\Banco_Query.php on line 17.
+ 1 APPPATH\Controllers\Dados.php(31): App\Models\Banco_Query->cadastrarAnimal('Jack', 'Gato', 'Siamês', '2 Anos', null, '1111-11-11', Object(mysqli_result))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:19:11 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:19:22 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:19:51 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:20:07 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:23:32 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:23:33 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:23:34 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:46 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:50 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:51 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:51 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:52 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:52 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:53 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:53 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:53 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:54 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:54 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:28:54 --> Object of class mysqli_result could not be converted to string
+in APPPATH\Views\CadAnimal_View.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadAnimal_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(24): view('CadAnimal_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarAnimal()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,122 @@
+CRITICAL - 2023-05-17 01:50:34 --> Undefined variable $Nome
+in APPPATH\Controllers\Dados.php on line 17.
+ 1 APPPATH\Controllers\Dados.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Nome', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Controllers\\Dados.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 01:50:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '00', 'XP', , '11111-111', 'Rua Oculta da F...' at line 1 in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail....', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '00', 'XP', '', '11111-111', 'Rua Oculta da F...')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-17 01:50:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '00', 'XP', , '11111-111', 'Rua Oculta da F...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'00\', \'XP\', , \'11111-111\', \'Rua Oculta da Folha\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'00\', \'XP\', , \'11111-111\', \'Rua Oculta da Folha\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'00\', \'XP\', , \'11111-111\', \'Rua Oculta da Folha\')')
+ 4 APPPATH\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'00\', \'XP\', , \'11111-111\', \'Rua Oculta da Folha\')')
+ 5 APPPATH\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail.com', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '00', 'XP', '', '11111-111', 'Rua Oculta da Folha')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 01:52:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '23', 'SP', , '11111-111', 'Rua Oculta da F...' at line 1 in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail....', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '23', 'SP', '', '11111-111', 'Rua Oculta da F...')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-17 01:52:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '23', 'SP', , '11111-111', 'Rua Oculta da F...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta da Folha\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta da Folha\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta da Folha\')')
+ 4 APPPATH\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta da Folha\')')
+ 5 APPPATH\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail.com', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '23', 'SP', '', '11111-111', 'Rua Oculta da Folha')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 01:52:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '99999999999', 'Rio Claro', '23', 'SP', , '11111111', 'Rua Oculta da Folha')' at line 1 in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail....', '1', '00000000000', '', '', '99999999999', 'Rio Claro', '23', 'SP', '', '11111111', 'Rua Oculta da F...')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-17 01:52:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '99999999999', 'Rio Claro', '23', 'SP', , '11111111', 'Rua Oculta da Folha')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'00000000000\', , , \'99999999999\', \'Rio Claro\', \'23\', \'SP\', , \'11111111\', \'Rua Oculta da Folha\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'00000000000\', , , \'99999999999\', \'Rio Claro\', \'23\', \'SP\', , \'11111111\', \'Rua Oculta da Folha\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'00000000000\', , , \'99999999999\', \'Rio Claro\', \'23\', \'SP\', , \'11111111\', \'Rua Oculta da Folha\')')
+ 4 APPPATH\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'00000000000\', , , \'99999999999\', \'Rio Claro\', \'23\', \'SP\', , \'11111111\', \'Rua Oculta da Folha\')')
+ 5 APPPATH\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail.com', '1', '00000000000', '', '', '99999999999', 'Rio Claro', '23', 'SP', '', '11111111', 'Rua Oculta da Folha')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 01:53:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '23', 'SP', , '11111-111', 'Rua Oculta ')' at line 1 in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail....', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '23', 'SP', '', '11111-111', 'Rua Oculta ')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-17 01:53:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '23', 'SP', , '11111-111', 'Rua Oculta ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')')
+ 4 APPPATH\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')')
+ 5 APPPATH\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail.com', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '23', 'SP', '', '11111-111', 'Rua Oculta ')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 01:53:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '23', 'SP', , '11111-111', 'Rua Oculta ')' at line 1 in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail....', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '23', 'SP', '', '11111-111', 'Rua Oculta ')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-17 01:53:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , '(99)99999-9999', 'Rio Claro', '23', 'SP', , '11111-111', 'Rua Oculta ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')')
+ 4 APPPATH\Models\Banco_Query.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`CodCli`, `Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES (NULL, \'Vieira\', \'Senha Secreta\', \'meuemail@gmail.com\', \'1\', \'000.000.000-00\', , , \'(99)99999-9999\', \'Rio Claro\', \'23\', \'SP\', , \'11111-111\', \'Rua Oculta \')')
+ 5 APPPATH\Controllers\Dados.php(17): App\Models\Banco_Query->cadastrarCliente('Vieira', 'Senha Secreta', 'meuemail@gmail.com', '1', '000.000.000-00', '', '', '(99)99999-9999', 'Rio Claro', '23', 'SP', '', '11111-111', 'Rua Oculta ')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->CadastrarC2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
