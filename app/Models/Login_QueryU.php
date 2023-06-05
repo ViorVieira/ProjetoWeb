@@ -4,11 +4,11 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Login_Query extends Model {
+class Login_QueryU extends Model {
 
-    protected $table = 'cliente';
-    protected $primaryKey = 'CodCli';
-    protected $allowedFields = ['Nome', 'Senha', 'E_mail'];
+    protected $table = 'usuario';
+    protected $primaryKey = 'CodUsuario';
+    protected $allowedFields = ['Nome', 'Senha', 'E_mail','Funcao', 'Tipo'];
 }   
    
    

@@ -38,8 +38,9 @@ $routes->get("cadA", "Dados::cadastrarAnimal");
 $routes->post("CadA2", "Dados::cadastrarAnimal2");
 $routes->post("LoginFC", "Dados::loginCli2");
 $routes->get("LoginFC", "Dados::loginCli2");
-$routes->get("logout", "Dados::logout");
-
+$routes->get("logout", "Dados::logout"); 
+$routes->get("LoginU", "Dados::loginUsuario");
+$routes->post("LoginU", "Dados::loginUsuario2");
 
 /*
  * --------------------------------------------------------------------
