@@ -163,6 +163,19 @@ class Dados extends BaseController
         return view("CadAtendimento_View");
     }
 
+    function cadastrarAtendimento2(){
+        $bq = new Banco_Query();
+        $bq->cadastrarAtendimento(
+            $this->request->getPost("Preco"),
+            $this->request->getPost("Observacao"),
+            $this->request->getPost("Status"),
+            $this->request->getPost("Animal"),
+            $this->request->getPost("Servico"),
+            $this->request->getPost("Ocupacao")
+        );
+        return view("Home_View");
+    }
+
 
     function consultaCli()
     {
