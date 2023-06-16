@@ -36,11 +36,20 @@ $routes->get("cadU","Dados::cadastrarU");
 $routes->post("cadU2","Dados::cadastrarU2");
 $routes->get("cadA", "Dados::cadastrarAnimal");
 $routes->post("CadA2", "Dados::cadastrarAnimal2");
+$routes->get("cadTipoServ", "Dados::cadastrarTipoServ");
+$routes->post("cadTipoServ", "Dados::cadastrarTipoServ2");
+$routes->get("cadServico", "Dados::cadastrarServico");
+$routes->post("cadServico", "Dados::cadastrarServico2");
+$routes->get("cadOcupacao", "Dados::cadastrarOcupacao");
+$routes->post("cadOcupacao", "Dados::cadastrarOcupacao2");
+$routes->get("cadAtendimento", "Dados::cadastrarAtendimento");
+$routes->post("cadAtendimento", "Dados::cadastrarAtendimento2");
 $routes->post("LoginFC", "Dados::loginCli2");
 $routes->get("LoginFC", "Dados::loginCli2");
 $routes->get("logout", "Dados::logout"); 
 $routes->get("LoginU", "Dados::loginUsuario");
 $routes->post("LoginU", "Dados::loginUsuario2");
+
 
 /*
  * --------------------------------------------------------------------

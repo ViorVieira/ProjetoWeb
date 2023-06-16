@@ -1,0 +1,369 @@
+CRITICAL - 2023-06-10 20:54:30 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 21:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 21:12:09 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\Home_View.php on line 54.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Home_View', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('Home_View')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 21:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 21:13:16 --> syntax error, unexpected identifier "var_dump"
+in APPPATH\Views\Home_View.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Home_View', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('Home_View')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 21:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 21:13:21 --> Undefined constant "br"
+in APPPATH\Views\Home_View.php on line 54.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Home_View', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('Home_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 21:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 21:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 22:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 22:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 22:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 22:53:00 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 23.
+ 1 APPPATH\Views\CadServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 22:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 22:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 22:54:18 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 23.
+ 1 APPPATH\Views\CadServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:01:22 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 24.
+ 1 APPPATH\Views\CadServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:02:13 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 24.
+ 1 APPPATH\Views\CadServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:02:46 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 22.
+ 1 APPPATH\Views\CadServico_View.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:03:29 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 22.
+ 1 APPPATH\Views\CadServico_View.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:05:47 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 56.
+ 1 APPPATH\Views\CadServico_View.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:06:49 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 56.
+ 1 APPPATH\Views\CadServico_View.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:07:01 --> Undefined variable $session
+in APPPATH\Views\CadServico_View.php on line 56.
+ 1 APPPATH\Views\CadServico_View.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:09:04 --> Unclosed '{' on line 52
+in APPPATH\Views\CadServico_View.php on line 62.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 3 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:09:16 --> Undefined variable $so
+in APPPATH\Views\CadServico_View.php on line 39.
+ 1 APPPATH\Views\CadServico_View.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $so', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:14:49 --> Undefined variable $con
+in APPPATH\Models\SelectOptions.php on line 12.
+ 1 APPPATH\Models\SelectOptions.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $con', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Models\\SelectOptions.php', 12)
+ 2 APPPATH\Views\CadServico_View.php(38): App\Models\SelectOptions->__construct()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:15:11 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Models\SelectOptions.php on line 16.
+ 1 APPPATH\Models\SelectOptions.php(16): mysqli_query('SELECT * FROM usuario')
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:15:36 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Models\SelectOptions.php on line 16.
+ 1 APPPATH\Models\SelectOptions.php(16): mysqli_query('SELECT * FROM usuario')
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:15:55 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Models\SelectOptions.php on line 12.
+ 1 APPPATH\Models\SelectOptions.php(12): mysqli_query('SELECT * FROM usuario')
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:16:00 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Models\SelectOptions.php on line 12.
+ 1 APPPATH\Models\SelectOptions.php(12): mysqli_query('SELECT * FROM usuario')
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:16:27 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Models\SelectOptions.php on line 16.
+ 1 APPPATH\Models\SelectOptions.php(16): mysqli_query('SELECT * FROM usuario')
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:16:57 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, string given
+in APPPATH\Models\SelectOptions.php on line 16.
+ 1 APPPATH\Models\SelectOptions.php(16): mysqli_query('$Con', 'SELECT * FROM usuario')
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:17:06 --> Undefined variable $Con
+in APPPATH\Models\SelectOptions.php on line 16.
+ 1 APPPATH\Models\SelectOptions.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Con', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Models\\SelectOptions.php', 16)
+ 2 APPPATH\Views\CadServico_View.php(39): App\Models\SelectOptions->SelectUsuário()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:20:12 --> syntax error, unexpected token "<"
+in APPPATH\Views\CadServico_View.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 3 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-10 23:23:34 --> Undefined variable $so
+in APPPATH\Views\CadServico_View.php on line 38.
+ 1 APPPATH\Views\CadServico_View.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $so', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\CadServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('CadServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(104): view('CadServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 23:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-10 23:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -29,4 +29,19 @@ class Banco_Query extends Model {
                 . "VALUES ('$Descricao', '$Preco', '$NomeServico')");
     }
 
+    function cadastrarServico($Descricao, $CodTipoServ, $CodUsuario){
+        $this->db->query("INSERT INTO Servico (Descricao, CodTipoServ, CodUsuario) 
+        VALUES('$Descricao','$CodTipoServ','$CodUsuario')");
+    }
+
+    function cadastrarOcupacao($Data, $Hora, $CodUsuario){
+        $this->db->query("INSERT INTO OcupacaoUsuario (Data, Hora, CodUsuario)
+        VALUES ('$Data', '$Hora', '$CodUsuario')");
+
+    }
+
+    function cadastrarAtendimento($Preco, $Observacoes, $ServicoRealizado, $CodAnimal, $CodServico, $CodOcupacao){
+        $this->db->query("INSERT INTO Atendimento (Preco, Observacoes, ServicoRealizado, CodAnimal, CodServico, CodOcupacao)
+        VALUES ('$Preco', '$Observacoes', '$ServicoRealizado', '$CodAnimal', '$CodServico', '$CodOcupacao')");
+    }
 }

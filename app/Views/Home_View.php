@@ -34,14 +34,33 @@
 
     <header class='topo'>
         <!-- <a href='/app/Controllers/Dados.php'></a> -->
-        <?php if (!$session->get('E_mail')) {
+        <?php
+
+        if (!$session->get('Id_Cliente') and !$session->get('Id_Usuario')) {
             echo "<a class='link' href='/ProjetoWeb/public/cadC'>Cadastrar</a> &nbsp;
                   <a class='link' href='/ProjetoWeb/public/LoginFC'>Login </a> &nbsp;";
-        } else {
-            echo "<a class='link' href='/ProjetoWeb/public/cadA'>Cadastrar Animal</a> &nbsp;
-                      <a class='link' href='/ProjetoWeb/public/logout'>Logout</a>";
         }
+        if ($session->get('Id_Cliente')) {
+            echo "<a class='link' href='/ProjetoWeb/public/cadA'> Animal</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/logout'>Logout</a>";
+        }
+        if ($session->get('Tipo') == "1") {
+            echo "<a class='link' href='/ProjetoWeb/public/cadTipoServ'>Tipo de Serviço</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/cadServico'>Serviço</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/cadOcupacao'> Ocupação</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/cadAtendimento'> Atendimento</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/logout'>Logout</a>";
+        }
+        if ($session->get('Tipo') == "0") {
+            echo "<a class='link' href='/ProjetoWeb/public/cadTipoServ'>Tipo de Serviço</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/cadServico'>Serviço</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/cadOcupacao'> Ocupação</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/cadAtendimento'> Atendimento</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/logout'>Logout</a>";
+        }
+        
         ?>
+        
     </header>
 </body>
 

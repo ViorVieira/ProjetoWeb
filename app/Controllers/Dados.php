@@ -83,6 +83,87 @@ class Dados extends BaseController
         return view("Home_View");
     }
 
+    function cadastrarTipoServ()
+    {
+        return view("TipoServico_View");
+    }
+
+    function cadastrarTipoServ2()
+    {
+        $bq = new Banco_Query();
+        $bq->cadastrarTipoServico(
+            $this->request->getPost("Descricao"),
+            $this->request->getPost("Preco"),
+            $this->request->getPost("NomeServico")
+        );
+
+        return view("Home_View");
+    }
+
+    function cadastrarServico()
+    {
+        return view("CadServico_View");
+    }
+
+    function cadastrarServico2()
+    {
+        $session = session();
+        if ($session->get("Tipo") == "1") {
+            $bq = new Banco_Query();
+            $bq->cadastrarServico(
+                $this->request->getPost("Descricao"),
+                $this->request->getPost("CodTipoServ"),
+                $this->request->getPost("CodUsuario")
+            );
+            return view("Home_View");
+        }
+        if ($session->get("Tipo") == "0") {
+            $bq = new Banco_Query();
+            $session = session();
+            $bq->cadastrarServico(
+                $this->request->getPost("Descricao"),
+                $this->request->getPost("CodTipoServ"),
+                $session->get("Id_Usuario")
+            );
+            return view("Home_View");
+        }
+    }
+
+    function cadastrarOcupacao()
+    {
+        return view("CadOcupacao_View");
+    }
+
+    function cadastrarOcupacao2()
+    {
+        $session = session();
+        if($session->get("Tipo") == "1"){
+            $bq = new Banco_Query();
+            $bq->cadastrarOcupacao(
+                $this->request->getPost("Data"),
+                $this->request->getPost("Hora"),
+                $this->request->getPost("CodUsuario")    
+            );
+        }
+        if ($session->get("Tipo") == "0") {
+                $session = session();
+                $CodUsuario = $session->get("Id_Usuario");
+                $bq = new Banco_Query();
+                $bq->cadastrarOcupacao(
+                $this->request->getPost("Data"),
+                $this->request->getPost("Hora"),
+                $CodUsuario
+                );
+        }
+        return view("Home_View");
+    }
+    
+
+    function cadastrarAtendimento(){
+        return view("CadAtendimento_View");
+    }
+
+
     function consultaCli()
     {
         $bq = new \App\Models\Banco_Query();
@@ -91,7 +172,8 @@ class Dados extends BaseController
     }
 
     function loginCli2()
-    { {
+    { 
+        {
             // Carrega o helper de formulários e validação
             helper(['form', 'url']);
 
@@ -164,12 +246,13 @@ class Dados extends BaseController
         }
     }
 
-    function loginUsuario(){
+    function loginUsuario()
+    {
         return view("LoginUsuario_View");
     }
 
     function loginUsuario2()
-    {  
+    { 
         {
             // Carrega o helper de formulários e validação
             helper(['form', 'url']);

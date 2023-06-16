@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    background-color: rgb(230, 223, 223);
+}
+
+.topo {
+    text-align: center;
+    background-color: black;
+    height: 7vh;
+}
+
+.link {
+    color: rgb(177, 190, 202);
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-decoration: none;
+    background-color: black;
+}
