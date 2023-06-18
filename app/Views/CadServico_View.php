@@ -15,8 +15,10 @@
 <body>
     <header class="topo">
         <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
-        <a class='link' href='/ProjetoWeb/public/cadTipoServ'>Cadastrar Tipo de Serviço</a>&nbsp;
-        <a class='link' href='/ProjetoWeb/public/cadOcupacao'>Ocupação Usuário</a> 
+        <a class='link' href='/ProjetoWeb/public/cadTipoServ'>Cadastrar Tipo de Serviço</a> &nbsp;
+        <a class='link' href='/ProjetoWeb/public/cadOcupacao'>Ocupação Usuário</a> &nbsp;
+        <a class='link' href='/ProjetoWeb/public/cadAtendimento'> Atendimento</a> &nbsp;
+        <a class="link" href="/ProjetoWeb/public/logout">Logout</a> 
     </header>
 
     <div class="container-fluid"><br>

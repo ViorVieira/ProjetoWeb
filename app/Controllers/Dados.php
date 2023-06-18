@@ -3,9 +3,11 @@
 namespace App\Controllers;
 
 use App\Models\Banco_Query;
+use App\Models\Consultas_Query;
 use App\Models\Login_Query;
 use App\Models\Login_QueryCli;
 use App\Models\Login_QueryU;
+use App\Models\SelectOptions;
 use CodeIgniter\Controller;
 
 class Dados extends BaseController
@@ -52,6 +54,7 @@ class Dados extends BaseController
             $this->request->getPost("E_mail"),
             $this->request->getPost("Funcao"),
             $this->request->getPost("Tipo"),
+            $this->request->getPost("Situacao"),
             password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
             $this->request->getPost("Data_Admissao"),
             $this->request->getPost("FoneRes"),
@@ -176,12 +179,119 @@ class Dados extends BaseController
         return view("Home_View");
     }
 
+    function telaConsultaAdm(){
+        return view("ConsultaAdm");
+    }
 
     function consultaCli()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConCli'] = $bq->consultaCli();
-        return view("ConsultaCli_view", $data);
+        $data['ConCli'] = $bq->consultaCli($this->request->getPost("Nome"));
+        return view("ConsultaCli_View", $data);
+    }
+
+    function consultaCli2()
+    {
+        $bq = new \App\Models\Banco_Query();
+        $data['ConCli'] = $bq->consultaCli($this->request->getPost("Nome"));
+        return view("ConsultaCli_View", $data);
+    }
+
+  
+    function consultaAnimais(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("Nome"));
+        return view("ConsultaAnimal_View", $data);
+    }
+
+    function consultaAnimais2(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("Nome"));
+        return view("ConsultaAnimal_View", $data);
+    }
+
+    function consultaUsuario(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("Nome"));
+        return view("ConsultaUsuario_View",$data);
+    }
+
+    function consultaUsuario2(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("Nome"));
+        return view("ConsultaUsuario_View",$data);
+    }
+
+    function consultaOcupacao(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConOcupacao'] = $bq->consultaOcupacao($this->request->getPost("Nome"));
+        return view("ConsultaOcupacao_View",$data);
+    }
+
+    function consultaOcupacao2(){
+
+        $bq = new \App\Models\Banco_Query();
+        $so = new SelectOptions();
+        $data['ConOcupacao'] = $bq->consultaOcupacao($so->selectCodUsuario($this->request->getPost("Nome")));
+        return view("ConsultaOcupacao_View",$data);
+    }
+
+    function consultaTipoServico(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConTipoServico'] = $bq->consultaTipoServico($this->request->getPost("Nome"));
+        return view("ConsultaTipoServico_View", $data);
+    }
+
+    function consultaTipoServico2(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConTipoServico'] = $bq->consultaTipoServico($this->request->getPost("Nome"));
+        return view("ConsultaTipoServico_View", $data);
+    }
+
+    function consultaServico(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConServico'] = $bq->consultaServico($this->request->getPost("Nome"));
+        return view("ConsultaServico_View", $data);
+    }
+
+    function consultaServico2(){
+        $bq = new \App\Models\Banco_Query();
+        $so = new SelectOptions();
+        $data['ConServico'] = $bq->consultaServico($so->selectCodUsuario($this->request->getPost("Nome")));
+        return view("ConsultaServico_View", $data);
+    }
+
+    function consultaHorariosDisponivel(){
+        return view("ConsulraHorario_View");
+    }
+
+    function consultaHorariosDisponivel2(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConHorario'] = $bq->consulta();
+        return view("ConsulraHorario_View",$data);
+    }
+
+    function consultaAgendamento(){
+        return view("ConsultaAgendamento_View");
+    }
+
+    function consultaAgendamento2(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConAgendamento'] = $bq->consulta();
+        return view("ConsultaAgendamento_View", $data);
+    }
+
+    function consultaAtendimento(){
+        $bq = new \App\Models\Banco_Query();
+        $data['ConAtendimento'] = $bq->consultaAtendimento($this->request->getPost("Nome"));
+        return view("ConsultaAtendimento_View",$data);
+    }
+
+    function consultaAtendimento2(){
+        $bq = new \App\Models\Banco_Query();
+        $so = new SelectOptions();
+        $data['ConAtendimento'] = $bq->consultaAtendimento($so->selectCodAnimal($this->request->getPost("Nome")));
+        return view("ConsultaAtendimento_View",$data);
     }
 
     function loginCli2()

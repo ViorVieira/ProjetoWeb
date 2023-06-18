@@ -9,10 +9,28 @@
     height: 7vh;
 }
 
-.link {
+.link{
     color: rgb(177, 190, 202);
     font-family: 'Segoe UI';
     font-size: 18px;
     text-decoration: none;
     background-color: black;
+}
+
+.link2{
+    margin-left: 2vw;
+    color: black;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#background {
+    background-color: rgb(230, 223, 223);
+}
+
+
+#sec1 {
+    margin-left: 10vw;
+    margin-right: 10vw; 
 }

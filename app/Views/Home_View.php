@@ -49,6 +49,7 @@
                   <a class='link' href='/ProjetoWeb/public/cadServico'>Serviço</a> &nbsp;
                   <a class='link' href='/ProjetoWeb/public/cadOcupacao'> Ocupação</a> &nbsp;
                   <a class='link' href='/ProjetoWeb/public/cadAtendimento'> Atendimento</a> &nbsp;
+                  <a class='link' href='/ProjetoWeb/public/ConAdm'> Consultas</a> &nbsp;
                   <a class='link' href='/ProjetoWeb/public/logout'>Logout</a>";
         }
         if ($session->get('Tipo') == "0") {

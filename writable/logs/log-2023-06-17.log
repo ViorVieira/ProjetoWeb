@@ -1,0 +1,1158 @@
+INFO - 2023-06-17 00:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 00:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 01:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 01:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 01:12:10 --> syntax error, unexpected token "<"
+in APPPATH\Views\ConsultaCli_View.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaCli_View', [], true)
+ 3 APPPATH\Controllers\Dados.php(189): view('ConsultaCli_View', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaCli()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 01:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 01:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 01:17:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dados.php(194): CodeIgniter\Model->__call('consulta', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:21:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dados.php(194): CodeIgniter\Model->__call('consulta', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:22:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dados.php(194): CodeIgniter\Model->__call('consulta', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 01:22:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dados.php(194): CodeIgniter\Model->__call('consulta', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 01:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 01:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 19:42:37 --> Too few arguments to function App\Models\Banco_Query::consultaCli(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 189 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 48.
+ 1 APPPATH\Controllers\Dados.php(189): App\Models\Banco_Query->consultaCli()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaCli()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:23:44 --> Undefined variable $ConCli
+in APPPATH\Views\ConsultaAnimal_View.php on line 33.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConCli', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:24:48 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 33.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:27:50 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 33.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:29:14 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 33.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:29:15 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 33.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:30:47 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 31.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:30:47 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 31.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:30:48 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 31.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(200): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:30:58 --> Undefined variable $ConCli
+in APPPATH\Views\ConsultaCli_View.php on line 33.
+ 1 APPPATH\Views\ConsultaCli_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConCli', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaCli_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(188): view('ConsultaCli_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaCli()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:32:00 --> Undefined variable $ConCli
+in APPPATH\Views\ConsultaCli_View.php on line 33.
+ 1 APPPATH\Views\ConsultaCli_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConCli', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaCli_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(188): view('ConsultaCli_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaCli()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:32:01 --> Undefined variable $ConCli
+in APPPATH\Views\ConsultaCli_View.php on line 33.
+ 1 APPPATH\Views\ConsultaCli_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConCli', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaCli_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(188): view('ConsultaCli_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaCli()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:32:02 --> Undefined variable $ConCli
+in APPPATH\Views\ConsultaCli_View.php on line 33.
+ 1 APPPATH\Views\ConsultaCli_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConCli', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaCli_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaCli_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(188): view('ConsultaCli_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaCli()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 20:33:21 --> Undefined variable $ConAnimais
+in APPPATH\Views\ConsultaAnimal_View.php on line 31.
+ 1 APPPATH\Views\ConsultaAnimal_View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAnimais', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAnimal_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAnimal_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(202): view('ConsultaAnimal_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAnimais()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 21:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 21:01:07 --> Too few arguments to function App\Models\Banco_Query::consultaCli(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 18 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 48.
+ 1 APPPATH\Controllers\Dados.php(18): App\Models\Banco_Query->consultaCli()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarC()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 21:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 21:01:16 --> Too few arguments to function App\Models\Banco_Query::consultaCli(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 18 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 48.
+ 1 APPPATH\Controllers\Dados.php(18): App\Models\Banco_Query->consultaCli()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarC()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 21:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 21:02:04 --> Too few arguments to function App\Models\Banco_Query::consultaCli(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 18 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 48.
+ 1 APPPATH\Controllers\Dados.php(18): App\Models\Banco_Query->consultaCli()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarC()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 21:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 21:02:11 --> Too few arguments to function App\Models\Banco_Query::consultaCli(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 18 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 48.
+ 1 APPPATH\Controllers\Dados.php(18): App\Models\Banco_Query->consultaCli()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->cadastrarC()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 21:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 21:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 21:09:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:12:00 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:12:01 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:12:23 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:13:31 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:13:36 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:13:36 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:39 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:39 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:39 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:39 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:14:40 --> Too few arguments to function App\Models\Banco_Query::consultaUsuario(), 0 passed in C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php on line 214 and exactly 1 expected
+in APPPATH\Models\Banco_Query.php on line 56.
+ 1 APPPATH\Controllers\Dados.php(214): App\Models\Banco_Query->consultaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:46:22 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Dados.php on line 228.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Controllers\\Dados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dados')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Dados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:46:49 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:46:49 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:15 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:15 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:16 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:16 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:16 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:16 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:16 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:16 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:16 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:16 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:17 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:17 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:49:17 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:49:17 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuario WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:49:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:50:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:53:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:54:13 --> mysqli_sql_exception: Table 'projetoweb.ocupacaousuari' doesn't exist in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:54:13 --> Table 'projetoweb.ocupacaousuari' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM ocupacaousuari WHERE CodUsuario LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM ocupacaousuari WHERE CodUsuario LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM ocupacaousuari WHERE CodUsuario LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ocupacaousuari WHERE CodUsuario LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:54:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:55:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:56:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:56:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:56:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 21:57:16 --> mysqli_sql_exception: Unknown column 'CodUsuario' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 21:57:16 --> Unknown column 'CodUsuario' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM animal WHERE CodUsuario LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM animal WHERE CodUsuario LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM animal WHERE CodUsuario LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM animal WHERE CodUsuario LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(226): App\Models\Banco_Query->consultaOcupacao(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:57:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:57:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:58:15 --> Undefined variable $ConOcupacao
+in APPPATH\Views\ConsultaOcupacao_View.php on line 33.
+ 1 APPPATH\Views\ConsultaOcupacao_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConOcupacao', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:58:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:58:42 --> Undefined variable $ConOcupacao
+in APPPATH\Views\ConsultaOcupacao_View.php on line 33.
+ 1 APPPATH\Views\ConsultaOcupacao_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConOcupacao', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:58:55 --> Undefined variable $ConOcupacao
+in APPPATH\Views\ConsultaOcupacao_View.php on line 33.
+ 1 APPPATH\Views\ConsultaOcupacao_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConOcupacao', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:59:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:00:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:01:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:01:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:02:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\ConsultaOcupacao_View.php(34): CodeIgniter\Model->__get('selectNomeUsuario')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaOcupacao_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaOcupacao_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(227): view('ConsultaOcupacao_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaOcupacao()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 23:14:08 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(65): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(241): App\Models\Banco_Query->consultaTipoServico(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaTipoServico()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 23:14:08 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM tiposervico WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tiposervico WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tiposervico WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(65): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tiposervico WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(241): App\Models\Banco_Query->consultaTipoServico(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaTipoServico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 23:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-17 23:51:11 --> Undefined variable $ConUsuario
+in APPPATH\Views\ConsultaAtendimento_View.php on line 33.
+ 1 APPPATH\Views\ConsultaAtendimento_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConUsuario', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAtendimento_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAtendimento_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAtendimento_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(285): view('ConsultaAtendimento_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAtendimento()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-17 23:52:00 --> mysqli_sql_exception: Unknown column 'Nome' in 'where clause' in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM a...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(81): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(286): App\Models\Banco_Query->consultaAtendimento(NULL)
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->consultaAtendimento()
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-17 23:52:00 --> Unknown column 'Nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM atendimento WHERE Nome LIKE \'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM atendimento WHERE Nome LIKE \'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM atendimento WHERE Nome LIKE \'%\'')
+ 4 APPPATH\Models\Banco_Query.php(81): CodeIgniter\Database\BaseConnection->query('SELECT * FROM atendimento WHERE Nome LIKE \'%\'')
+ 5 APPPATH\Controllers\Dados.php(286): App\Models\Banco_Query->consultaAtendimento(null)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAtendimento()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:52:58 --> Undefined property: stdClass::$Servico
+in APPPATH\Views\ConsultaAtendimento_View.php on line 34.
+ 1 APPPATH\Views\ConsultaAtendimento_View.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Servico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAtendimento_View.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAtendimento_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAtendimento_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(287): view('ConsultaAtendimento_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAtendimento()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:53:40 --> Unknown column 'CodUsario' in 'field list'
+in APPPATH\Models\SelectOptions.php on line 60.
+ 1 APPPATH\Models\SelectOptions.php(60): mysqli_query(Object(mysqli), 'SELECT CodUsario FROM Servico WHERE CodServico = \'11\'')
+ 2 APPPATH\Views\ConsultaAtendimento_View.php(34): App\Models\SelectOptions->selectNomeUsuarioAtendimento('11')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAtendimento_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAtendimento_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(287): view('ConsultaAtendimento_View', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAtendimento()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 23:55:06 --> Undefined variable $con
+in APPPATH\Models\SelectOptions.php on line 64.
+ 1 APPPATH\Models\SelectOptions.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $con', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Models\\SelectOptions.php', 64)
+ 2 APPPATH\Views\ConsultaAtendimento_View.php(34): App\Models\SelectOptions->selectNomeUsuarioAtendimento('11')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\ConsultaAtendimento_View.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ConsultaAtendimento_View', [], true)
+ 6 APPPATH\Controllers\Dados.php(287): view('ConsultaAtendimento_View', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->consultaAtendimento()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-17 23:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-17 23:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,41 +1,19 @@
 <html>
 
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Cadastrar Cliente</title>
 </head>
-<style>
-   #background{
-        background-color: rgb(230, 223, 223);
-   }
-
-    .topo {
-        text-align: center;
-        background-color: black;
-        height: 7vh;
-    }
-
-    .link {
-        color: rgb(177, 190, 202);
-        font-family: 'Segoe UI';
-        font-size: 18px;
-        text-decoration: none;
-        background-color: black;
-    }
-
-    #sec1{
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
-</style>
+<link rel="stylesheet" href="../CSS/Style.css">
 
 <body>
     <main id="background">
         <header class="topo">
-         <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
-         <a class='link' href='/ProjetoWeb/public/LoginFC'>Login </a>
+            <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
+            <a class='link' href='/ProjetoWeb/public/LoginFC'>Login </a>
         </header>
         <div id="sec1" class="container">
             <form action="CadastrarC2" method="post">
@@ -45,7 +23,7 @@
                     <option value="0">Inativo</option>
                     <option value="1">Ativo</option>
                 </select><br>
-            
+
                 <input class="form-control" type="text" name="Nome" placeholder="Nome">
                 <input class="form-control" type="text" name="Senha" placeholder="Senha">
                 <input class="form-control" type="text" name="E_mail" placeholder="E-mail"><br>
@@ -60,11 +38,14 @@
                 <input class="form-control" type="text" name="CEP" placeholder="CEP"><br>
                 <input class="form-control" type="text" name="Logradouro" placeholder="Logradouro">
                 <input class="form-control" type="submit" value="Confirmar" class="btn btn-primary"><br>
-                Se não é cliente mas um usário do sistema clique <a href="/ProjetoWeb/public/cadU">Aqui</a> para cadastrar
+                Se não é cliente mas um usário do sistema clique <a href="/ProjetoWeb/public/cadU">Aqui</a> para
+                cadastrar
             </form>
         </div>
-    </main>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

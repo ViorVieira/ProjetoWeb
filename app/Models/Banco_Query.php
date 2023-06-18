@@ -17,10 +17,10 @@ class Banco_Query extends Model {
                 . "'$Situacao','$Data_Adocao', '$CodCli')");
     }
 
-    function cadastrarUsuario($Nome, $CPF, $E_mail, $Funcao, $Tipo, $Senha, $Data_Admissao, $FoneRes, $FoneCom, $Celular) {
-        $this->db->query("INSERT INTO Usuario (Nome, CPF, E_mail, Funcao, Tipo, "
+    function cadastrarUsuario($Nome, $CPF, $E_mail, $Funcao, $Tipo, $Situacao, $Senha, $Data_Admissao, $FoneRes, $FoneCom, $Celular) {
+        $this->db->query("INSERT INTO Usuario (Nome, CPF, E_mail, Funcao, Tipo, Situacao, "
                 . "Senha, Data_Admissao, FoneRes, FoneCom, Celular) VALUES('$Nome',"
-                . "'$CPF', '$E_mail', '$Funcao', '$Tipo','$Senha',"
+                . "'$CPF', '$E_mail', '$Funcao', '$Tipo', '$Situacao', '$Senha',"
                 . " '$Data_Admissao', '$FoneRes', '$FoneCom', '$Celular')");
     }
 
@@ -44,4 +44,41 @@ class Banco_Query extends Model {
         $this->db->query("INSERT INTO Atendimento (Preco, Observacoes, ServicoRealizado, CodAnimal, CodServico, CodOcupacao)
         VALUES ('$Preco', '$Observacoes', '$ServicoRealizado', '$CodAnimal', '$CodServico', '$CodOcupacao')");
     }
+
+    function consultaCli($nome){
+        return $this->db->query("SELECT * FROM cliente WHERE Nome LIKE '$nome%'");
+    }
+
+    function consultaAnimais($nome){
+        return $this->db->query("SELECT * FROM animal WHERE Nome LIKE '$nome%'");
+    }
+
+    function consultaUsuario($nome){
+        return $this->db->query("SELECT * FROM usuario WHERE Nome LIKE '$nome%'");
+    }
+    
+    function consultaOcupacao($cod){
+        return $this->db->query("SELECT * FROM ocupacaousuario WHERE CodUsuario LIKE '$cod%%'");
+    }
+
+    function consultaTipoServico($nome){
+        return $this->db->query("SELECT * FROM tiposervico WHERE NomeServico LIKE '$nome%'");
+    }
+
+    function consultaServico($cod){
+        return $this->db->query("SELECT * FROM servico WHERE CodUsuario LIKE '$cod%'");
+    }
+
+    function consultaHorarios($nome){
+        return $this->db->query("SELECT * FROM cliente WHERE Nome LIKE '$nome%'");
+    }
+
+    function consultaAgendamento($nome){
+        return $this->db->query("SELECT * FROM cliente WHERE Nome LIKE '$nome%'");
+    }
+
+    function consultaAtendimento($cod){
+        return $this->db->query("SELECT * FROM atendimento WHERE CodAnimal LIKE '$cod%'");
+    }
+
 }

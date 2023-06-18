@@ -13,10 +13,10 @@
 
     <body>
         <header class="topo">
-            <a class="link" href="">Home</a> &nbsp;
-            <a class="link" href="">Tipo Serviço</a>&nbsp;
-            <a class="link" href="">Serviço</a>&nbsp;
-            <a class="link" href="">Ocupação</a>&nbsp;
+            <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
+            <a class="link" href="/ProjetoWeb/public/cadTipoServ">Tipo Serviço</a>&nbsp;
+            <a class="link" href="/ProjetoWeb/public/cadServico">Serviço</a>&nbsp;
+            <a class="link" href="/ProjetoWeb/public/cadOcupacao">Ocupação</a>&nbsp;
             <a class='link' href='/ProjetoWeb/public/logout'>Logout</a>
          </header>
 

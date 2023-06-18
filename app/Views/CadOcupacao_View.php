@@ -16,6 +16,7 @@
         <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
         <a class='link' href='/ProjetoWeb/public/cadTipoServ'>Tipo de Serviço</a> &nbsp;
         <a class='link' href='/ProjetoWeb/public/cadServico'>Serviço</a> &nbsp;
+        <a class='link' href='/ProjetoWeb/public/cadAtendimento'> Atendimento</a> &nbsp;
         <a class="link" href="/ProjetoWeb/public/logout">Logout</a>
     </header>
 

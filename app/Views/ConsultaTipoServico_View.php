@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Consulta Clientes</title>
+    <title>Consulta Tipo Serviço</title>
 </head>
 <link rel="stylesheet" href="../CSS/Style.css">
 
@@ -17,11 +17,11 @@
         <a class="link" href="/ProjetoWeb/public/ConAdm">Consultas</a>
     </header>
     <main id="background">
-        <h2 style="padding-top: 2vh; margin-left: 80vh;"><strong>Consulta Cliente</strong></h2>
+        <h2 style="padding-top: 2vh; margin-left: 80vh;"><strong>Consulta Tipo Serviço</strong></h2>
         <div class="container" style="padding-top: 2vh; margin-left: 3vh;">
             <form action="" method="post">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" name="Nome" placeholder="Nome Do Cliente"
+                    <input type="text" class="form-control" name="Nome" placeholder="Nome Do Serviço"
                         aria-label="Recipient's username" aria-describedby="button-addon2">
                     <input class="btn btn-outline-secondary" type="submit" id="button-addon2"></input>
                 </div>
@@ -30,29 +30,15 @@
             <?php
             use App\Models\SelectOptions;
             $so = new SelectOptions();
-            foreach ($ConCli->getResult() as $valor) {
-                echo "<a href=''>$valor->Nome</a>";
-                echo "<br>";
-                echo "Email: ", $valor->E_mail;
-                echo "<br>";
-                echo "Siruação: ", $so->selectSituacao($valor->Situacao); 
-                echo "<br>";
-                echo "CPF: ", $valor->CPF;
-                echo "<br>";
-                echo "Celular: ", $valor->Celular;
-                echo "<br>";
-                echo "Cidade: ", $valor->Cidade;
-                echo "<br>";
-                echo "Número: ", $valor->Numero;
-                echo "<br>";
-                echo "Estado: ", $valor->Estado;
-                echo "<br>";
-                echo "CEP: ", $valor->CEP;
-                echo "<br>";
-                echo "Logradouro:", $valor->Logradouro;
-                echo "<br>";
-                echo "<br>";
-            }
+             foreach ($ConTipoServico->getResult() as $valor) {
+                 echo "<a href=''>$valor->NomeServico</a>";
+                 echo "<br>";
+                 echo "Descrição: ", $valor->Descricao;
+                 echo "<br>";
+                 echo "Preço: ", $valor->Preco;
+                 echo "<br>";
+                 echo "<br>";
+             }
             ?>
         </div>
     </main>

@@ -70,6 +70,14 @@
                     </select>
                 </div>
 
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupSelect01">Situação</label>
+                    <select class="form-select" id="inputGroupSelect01" name="Situacao">
+                        <option value="0">Inativo</option>
+                        <option value="1">Ativo</option>
+                    </select>
+                </div>
+
 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Data Admissão</span>

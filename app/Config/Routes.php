@@ -44,6 +44,24 @@ $routes->get("cadOcupacao", "Dados::cadastrarOcupacao");
 $routes->post("cadOcupacao", "Dados::cadastrarOcupacao2");
 $routes->get("cadAtendimento", "Dados::cadastrarAtendimento");
 $routes->post("cadAtendimento", "Dados::cadastrarAtendimento2");
+
+$routes->get("ConAdm", "Dados::telaConsultaAdm");
+
+$routes->get("ConCli", "Dados::consultaCli");
+$routes->post("ConCli", "Dados::consultaCli2");
+$routes->get("ConAnimal", "Dados::consultaAnimais");
+$routes->post("ConAnimal", "Dados::consultaAnimais2");
+$routes->get("ConUsuario", "Dados::consultaUsuario");
+$routes->post("ConUsuario", "Dados::consultaUsuario2");
+$routes->get("ConOcupacao", "Dados::consultaOcupacao");
+$routes->post("ConOcupacao", "Dados::consultaOcupacao2");
+$routes->get("ConTipoServico", "Dados::consultaTipoServico");
+$routes->post("ConTipoServico", "Dados::consultaTipoServico2");
+$routes->get("ConServico", "Dados::consultaServico");
+$routes->post("ConServico", "Dados::consultaServico2");
+$routes->get("ConAtendimento", "Dados::consultaAtendimento");
+$routes->post("ConAtendimento", "Dados::consultaAtendimento2");
+
 $routes->post("LoginFC", "Dados::loginCli2");
 $routes->get("LoginFC", "Dados::loginCli2");
 $routes->get("logout", "Dados::logout"); 
