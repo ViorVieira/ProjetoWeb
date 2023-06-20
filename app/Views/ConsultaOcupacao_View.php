@@ -9,9 +9,10 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Consulta Ocupação</title>
 </head>
-<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
+    
     <header class="topo">
         <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
         <a class="link" href="/ProjetoWeb/public/ConAdm">Consultas</a>
@@ -26,18 +27,21 @@
                     <input class="btn btn-outline-secondary" type="submit" id="button-addon2"></input>
                 </div>
             </form>
-
+            
             <?php
             use App\Models\SelectOptions;
             $so = new SelectOptions();
+
              foreach ($ConOcupacao->getResult() as $valor) {
-                echo $so->selectNomeUsuario($valor->CodUsuario);
+                 echo $so->selectNomeUsuario($valor->CodUsuario);
                  echo "<br>";
                  echo "Data: ", $valor->Data;
                  echo "<br>";
                  echo "Hora: ", $valor->Hora;
                  echo "<br>";
                  echo "<a href=''>Alterar</a>";
+                 echo "<br>";
+                 echo "<a href='/ProjetoWeb/public/removeOcupacao/$valor->CodOcupacao'>Remover</a>";
                  echo "<br>";
                  echo "<br>";
              }

@@ -63,14 +63,6 @@
                 </div>
 
                 <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Tipo</label>
-                    <select class="form-select" id="inputGroupSelect01" name="Tipo">
-                        <option value="0">Usuário Comum</option>
-                        <option value="1">Usuário Administrador</option>
-                    </select>
-                </div>
-
-                <div class="input-group mb-3">
                     <label class="input-group-text" for="inputGroupSelect01">Situação</label>
                     <select class="form-select" id="inputGroupSelect01" name="Situacao">
                         <option value="0">Inativo</option>

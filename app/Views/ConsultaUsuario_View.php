@@ -31,7 +31,7 @@
             use App\Models\SelectOptions;
             $so = new SelectOptions();
              foreach ($ConUsuario->getResult() as $valor) {
-                 echo "<a href=''>$valor->Nome</a>";
+                 echo $valor->Nome;
                  echo "<br>";
                  echo "E_mail: ", $valor->E_mail;
                  echo "<br>";
@@ -46,6 +46,8 @@
                  echo "Data admissão: ", $valor->Data_Admissao;
                  echo "<br>";
                  echo "Celular: ", $valor->Celular;
+                 echo "<br>";
+                 echo "<a href=''>Alterar</a>";
                  echo "<br>";
                  echo "<br>";
              }

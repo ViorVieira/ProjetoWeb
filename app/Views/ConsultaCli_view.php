@@ -31,7 +31,7 @@
             use App\Models\SelectOptions;
             $so = new SelectOptions();
             foreach ($ConCli->getResult() as $valor) {
-                echo "<a href=''>$valor->Nome</a>";
+                echo $valor->Nome;
                 echo "<br>";
                 echo "Email: ", $valor->E_mail;
                 echo "<br>";
@@ -50,6 +50,8 @@
                 echo "CEP: ", $valor->CEP;
                 echo "<br>";
                 echo "Logradouro:", $valor->Logradouro;
+                echo "<br>";
+                 echo "<a href='/ProjetoWeb/public/AltCli'>Alterar</a>";
                 echo "<br>";
                 echo "<br>";
             }

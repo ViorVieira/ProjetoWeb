@@ -47,20 +47,92 @@ class Dados extends BaseController
 
     function cadastrarU2()
     {
-        $bq = new Banco_Query();
-        $bq->cadastrarUsuario(
-            $this->request->getPost("Nome"),
-            $this->request->getPost("CPF"),
-            $this->request->getPost("E_mail"),
-            $this->request->getPost("Funcao"),
-            $this->request->getPost("Tipo"),
-            $this->request->getPost("Situacao"),
-            password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
-            $this->request->getPost("Data_Admissao"),
-            $this->request->getPost("FoneRes"),
-            $this->request->getPost("FoneCom"),
-            $this->request->getPost("Celular")
-        );
+        if ($this->request->getPost("Funcao") == "1") {
+            $UsuárioComum = '0';
+            $bq = new Banco_Query();
+            $bq->cadastrarUsuario(
+                $this->request->getPost("Nome"),
+                $this->request->getPost("CPF"),
+                $this->request->getPost("E_mail"),
+                $this->request->getPost("Funcao"),
+                $UsuárioComum,
+                $this->request->getPost("Situacao"),
+                password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
+                $this->request->getPost("Data_Admissao"),
+                $this->request->getPost("FoneRes"),
+                $this->request->getPost("FoneCom"),
+                $this->request->getPost("Celular")
+            );  
+        } 
+        if ($this->request->getPost("Funcao") == "2") {
+            $UsuárioComum = '0';
+            $bq = new Banco_Query();
+            $bq->cadastrarUsuario(
+                $this->request->getPost("Nome"),
+                $this->request->getPost("CPF"),
+                $this->request->getPost("E_mail"),
+                $this->request->getPost("Funcao"),
+                $UsuárioComum,
+                $this->request->getPost("Situacao"),
+                password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
+                $this->request->getPost("Data_Admissao"),
+                $this->request->getPost("FoneRes"),
+                $this->request->getPost("FoneCom"),
+                $this->request->getPost("Celular")
+            );  
+        } 
+        if ($this->request->getPost("Funcao") == "3") {
+            $UsuárioComum = '0';
+            $bq = new Banco_Query();
+            $bq->cadastrarUsuario(
+                $this->request->getPost("Nome"),
+                $this->request->getPost("CPF"),
+                $this->request->getPost("E_mail"),
+                $this->request->getPost("Funcao"),
+                $UsuárioComum,
+                $this->request->getPost("Situacao"),
+                password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
+                $this->request->getPost("Data_Admissao"),
+                $this->request->getPost("FoneRes"),
+                $this->request->getPost("FoneCom"),
+                $this->request->getPost("Celular")
+            );  
+        }
+        if ($this->request->getPost("Funcao") == "4") {
+            $UsuárioComum = '0';
+            $bq = new Banco_Query();
+            $bq->cadastrarUsuario(
+                $this->request->getPost("Nome"),
+                $this->request->getPost("CPF"),
+                $this->request->getPost("E_mail"),
+                $this->request->getPost("Funcao"),
+                $UsuárioComum,
+                $this->request->getPost("Situacao"),
+                password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
+                $this->request->getPost("Data_Admissao"),
+                $this->request->getPost("FoneRes"),
+                $this->request->getPost("FoneCom"),
+                $this->request->getPost("Celular")
+            );  
+        }  
+        if($this->request->getPost("Funcao") == "5") {
+            $UsuárioAdministrador = "1";
+            $bq = new Banco_Query();
+            $bq->cadastrarUsuario(
+                $this->request->getPost("Nome"),
+                $this->request->getPost("CPF"),
+                $this->request->getPost("E_mail"),
+                $this->request->getPost("Funcao"),
+                $UsuárioAdministrador,
+                $this->request->getPost("Situacao"),
+                password_hash($this->request->getPost("Senha"), PASSWORD_DEFAULT),
+                $this->request->getPost("Data_Admissao"),
+                $this->request->getPost("FoneRes"),
+                $this->request->getPost("FoneCom"),
+                $this->request->getPost("Celular")
+            );
+            
+        }
         return view("Home_View");
     }
 
@@ -140,33 +212,35 @@ class Dados extends BaseController
     function cadastrarOcupacao2()
     {
         $session = session();
-        if($session->get("Tipo") == "1"){
+        if ($session->get("Tipo") == "1") {
             $bq = new Banco_Query();
             $bq->cadastrarOcupacao(
                 $this->request->getPost("Data"),
                 $this->request->getPost("Hora"),
-                $this->request->getPost("CodUsuario")    
+                $this->request->getPost("CodUsuario")
             );
         }
         if ($session->get("Tipo") == "0") {
-                $session = session();
-                $CodUsuario = $session->get("Id_Usuario");
-                $bq = new Banco_Query();
-                $bq->cadastrarOcupacao(
+            $session = session();
+            $CodUsuario = $session->get("Id_Usuario");
+            $bq = new Banco_Query();
+            $bq->cadastrarOcupacao(
                 $this->request->getPost("Data"),
                 $this->request->getPost("Hora"),
                 $CodUsuario
-                );
+            );
         }
         return view("Home_View");
     }
-    
 
-    function cadastrarAtendimento(){
+
+    function cadastrarAtendimento()
+    {
         return view("CadAtendimento_View");
     }
 
-    function cadastrarAtendimento2(){
+    function cadastrarAtendimento2()
+    {
         $bq = new Banco_Query();
         $bq->cadastrarAtendimento(
             $this->request->getPost("Preco"),
@@ -179,7 +253,8 @@ class Dados extends BaseController
         return view("Home_View");
     }
 
-    function telaConsultaAdm(){
+    function telaConsultaAdm()
+    {
         return view("ConsultaAdm");
     }
 
@@ -197,106 +272,145 @@ class Dados extends BaseController
         return view("ConsultaCli_View", $data);
     }
 
-  
-    function consultaAnimais(){
+
+    function consultaAnimais()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("Nome"));
         return view("ConsultaAnimal_View", $data);
     }
 
-    function consultaAnimais2(){
+    function consultaAnimais2()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("Nome"));
         return view("ConsultaAnimal_View", $data);
     }
 
-    function consultaUsuario(){
+    function consultaUsuario()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("Nome"));
-        return view("ConsultaUsuario_View",$data);
+        return view("ConsultaUsuario_View", $data);
     }
 
-    function consultaUsuario2(){
+    function consultaUsuario2()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("Nome"));
-        return view("ConsultaUsuario_View",$data);
+        return view("ConsultaUsuario_View", $data);
     }
 
-    function consultaOcupacao(){
+    function consultaOcupacao()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConOcupacao'] = $bq->consultaOcupacao($this->request->getPost("Nome"));
-        return view("ConsultaOcupacao_View",$data);
+        return view("ConsultaOcupacao_View", $data);
     }
 
-    function consultaOcupacao2(){
+    function consultaOcupacao2()
+    {
 
         $bq = new \App\Models\Banco_Query();
         $so = new SelectOptions();
         $data['ConOcupacao'] = $bq->consultaOcupacao($so->selectCodUsuario($this->request->getPost("Nome")));
-        return view("ConsultaOcupacao_View",$data);
+        return view("ConsultaOcupacao_View", $data);
     }
 
-    function consultaTipoServico(){
+    function consultaTipoServico()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConTipoServico'] = $bq->consultaTipoServico($this->request->getPost("Nome"));
         return view("ConsultaTipoServico_View", $data);
     }
 
-    function consultaTipoServico2(){
+    function consultaTipoServico2()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConTipoServico'] = $bq->consultaTipoServico($this->request->getPost("Nome"));
         return view("ConsultaTipoServico_View", $data);
     }
 
-    function consultaServico(){
+    function consultaServico()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConServico'] = $bq->consultaServico($this->request->getPost("Nome"));
         return view("ConsultaServico_View", $data);
     }
 
-    function consultaServico2(){
+    function consultaServico2()
+    {
         $bq = new \App\Models\Banco_Query();
         $so = new SelectOptions();
         $data['ConServico'] = $bq->consultaServico($so->selectCodUsuario($this->request->getPost("Nome")));
         return view("ConsultaServico_View", $data);
     }
 
-    function consultaHorariosDisponivel(){
+    function consultaHorariosDisponivel()
+    {
         return view("ConsulraHorario_View");
     }
 
-    function consultaHorariosDisponivel2(){
+    function consultaHorariosDisponivel2()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConHorario'] = $bq->consulta();
-        return view("ConsulraHorario_View",$data);
+        return view("ConsulraHorario_View", $data);
     }
 
-    function consultaAgendamento(){
+    function consultaAgendamento()
+    {
         return view("ConsultaAgendamento_View");
     }
 
-    function consultaAgendamento2(){
+    function consultaAgendamento2()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConAgendamento'] = $bq->consulta();
         return view("ConsultaAgendamento_View", $data);
     }
 
-    function consultaAtendimento(){
+    function consultaAtendimento()
+    {
         $bq = new \App\Models\Banco_Query();
         $data['ConAtendimento'] = $bq->consultaAtendimento($this->request->getPost("Nome"));
-        return view("ConsultaAtendimento_View",$data);
+        return view("ConsultaAtendimento_View", $data);
     }
 
-    function consultaAtendimento2(){
+    function consultaAtendimento2()
+    {
         $bq = new \App\Models\Banco_Query();
+        $so = new SelectOptions();
+        $data['ConAtendimento'] = $bq->consultaAtendimento($so->selectCodAnimal($this->request->getPost("Nome")));
+        return view("ConsultaAtendimento_View", $data);
+    }
+
+    function removerOcupacao($cod){
+        $bq = new Banco_Query();
+        $bq->removerOcupacao($cod);
+        $so = new SelectOptions();
+        $data['ConOcupacao'] = $bq->consultaOcupacao($so->selectCodUsuario($this->request->getPost("Nome")));
+        return view("ConsultaOcupacao_View",$data);
+    }
+
+    function removerServico($cod){
+        $bq = new Banco_Query();
+        $bq->removerServico($cod);
+        $so = new SelectOptions();
+        $data['ConServico'] = $bq->consultaServico($so->selectCodUsuario($this->request->getPost("Nome")));
+        return view("ConsultaServico_View",$data);
+    }
+
+    function removerAtendimento($cod){
+        $bq = new Banco_Query();
+        $bq->removerAtendimento($cod);
         $so = new SelectOptions();
         $data['ConAtendimento'] = $bq->consultaAtendimento($so->selectCodAnimal($this->request->getPost("Nome")));
         return view("ConsultaAtendimento_View",$data);
     }
 
     function loginCli2()
-    { 
-        {
+    { {
             // Carrega o helper de formulários e validação
             helper(['form', 'url']);
 
@@ -375,8 +489,7 @@ class Dados extends BaseController
     }
 
     function loginUsuario2()
-    { 
-        {
+    { {
             // Carrega o helper de formulários e validação
             helper(['form', 'url']);
 

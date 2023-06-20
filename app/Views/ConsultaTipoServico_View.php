@@ -37,6 +37,8 @@
                  echo "<br>";
                  echo "Preço: ", $valor->Preco;
                  echo "<br>";
+                 echo "<a href=''>Alterar</a>";
+                 echo "<br>";
                  echo "<br>";
              }
             ?>

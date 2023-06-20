@@ -1,0 +1,96 @@
+INFO - 2023-06-20 23:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 23:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 23:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-20 23:13:40 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodOcupacao` FOREIGN KEY (`CodOcupacao`) REFERENCES `ocupacaousuario` (`CodOcupacao`)) in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ocu...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ocu...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ocu...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(88): CodeIgniter\Database\BaseConnection->query('DELETE FROM ocu...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(390): App\Models\Banco_Query->removerOcupacao('6')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->removerOcupacao('6')
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-20 23:13:40 --> Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodOcupacao` FOREIGN KEY (`CodOcupacao`) REFERENCES `ocupacaousuario` (`CodOcupacao`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'')
+ 4 APPPATH\Models\Banco_Query.php(88): CodeIgniter\Database\BaseConnection->query('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'')
+ 5 APPPATH\Controllers\Dados.php(390): App\Models\Banco_Query->removerOcupacao('6')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->removerOcupacao('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:13:56 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodOcupacao` FOREIGN KEY (`CodOcupacao`) REFERENCES `ocupacaousuario` (`CodOcupacao`)) in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ocu...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ocu...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ocu...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(88): CodeIgniter\Database\BaseConnection->query('DELETE FROM ocu...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(390): App\Models\Banco_Query->removerOcupacao('6')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->removerOcupacao('6')
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-20 23:13:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodOcupacao` FOREIGN KEY (`CodOcupacao`) REFERENCES `ocupacaousuario` (`CodOcupacao`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'')
+ 4 APPPATH\Models\Banco_Query.php(88): CodeIgniter\Database\BaseConnection->query('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'6\'')
+ 5 APPPATH\Controllers\Dados.php(390): App\Models\Banco_Query->removerOcupacao('6')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->removerOcupacao('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:14:09 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodOcupacao` FOREIGN KEY (`CodOcupacao`) REFERENCES `ocupacaousuario` (`CodOcupacao`)) in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ocu...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ocu...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ocu...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(88): CodeIgniter\Database\BaseConnection->query('DELETE FROM ocu...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(390): App\Models\Banco_Query->removerOcupacao('4')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->removerOcupacao('4')
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-20 23:14:09 --> Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodOcupacao` FOREIGN KEY (`CodOcupacao`) REFERENCES `ocupacaousuario` (`CodOcupacao`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'4\'')
+ 4 APPPATH\Models\Banco_Query.php(88): CodeIgniter\Database\BaseConnection->query('DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= \'4\'')
+ 5 APPPATH\Controllers\Dados.php(390): App\Models\Banco_Query->removerOcupacao('4')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->removerOcupacao('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:15:14 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodServico` FOREIGN KEY (`CodServico`) REFERENCES `servico` (`CodServico`)) in C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ProjetoWeb\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM ser...', 0)
+#1 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM ser...')
+#2 C:\xampp\htdocs\ProjetoWeb\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM ser...')
+#3 C:\xampp\htdocs\ProjetoWeb\app\Models\Banco_Query.php(92): CodeIgniter\Database\BaseConnection->query('DELETE FROM ser...')
+#4 C:\xampp\htdocs\ProjetoWeb\app\Controllers\Dados.php(398): App\Models\Banco_Query->removerServico('18')
+#5 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(934): App\Controllers\Dados->removerServico('18')
+#6 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+#7 C:\xampp\htdocs\ProjetoWeb\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProjetoWeb\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-20 23:15:14 --> Cannot delete or update a parent row: a foreign key constraint fails (`projetoweb`.`atendimento`, CONSTRAINT `fk_CodServico` FOREIGN KEY (`CodServico`) REFERENCES `servico` (`CodServico`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM servico WHERE CodServico = \'18\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM servico WHERE CodServico = \'18\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM servico WHERE CodServico = \'18\'')
+ 4 APPPATH\Models\Banco_Query.php(92): CodeIgniter\Database\BaseConnection->query('DELETE FROM servico WHERE CodServico = \'18\'')
+ 5 APPPATH\Controllers\Dados.php(398): App\Models\Banco_Query->removerServico('18')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->removerServico('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-20 23:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

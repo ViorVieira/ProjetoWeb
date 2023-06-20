@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class Banco_Query extends Model {
 
+     //////////////////////////////////////////// Cadastro ////////////////////////////////////////////
     function cadastrarCliente($Nome, $Senha, $E_mail, $Situacao, $CPF, $FoneRes, $FoneCom, $Celular, $Cidade, $Número, $Estado, $Complemento, $CEP, $Logradouro) {
         $this->db->query("INSERT INTO `cliente` (`Nome`, `Senha`, `E_mail`, `Situacao`, `CPF`, `FoneRes`, `FoneCom`, `Celular`, `Cidade`, `Numero`, `Estado`, `Complemento`, `CEP`, `Logradouro`) VALUES ('$Nome', '$Senha',"
                 . " '$E_mail', '$Situacao', '$CPF', '$FoneRes', '$FoneCom', '$Celular', '$Cidade', '$Número', '$Estado',"
@@ -45,6 +46,7 @@ class Banco_Query extends Model {
         VALUES ('$Preco', '$Observacoes', '$ServicoRealizado', '$CodAnimal', '$CodServico', '$CodOcupacao')");
     }
 
+     //////////////////////////////////////////// Consulta ////////////////////////////////////////////
     function consultaCli($nome){
         return $this->db->query("SELECT * FROM cliente WHERE Nome LIKE '$nome%'");
     }
@@ -81,4 +83,40 @@ class Banco_Query extends Model {
         return $this->db->query("SELECT * FROM atendimento WHERE CodAnimal LIKE '$cod%'");
     }
 
+    //////////////////////////////////////////// Remoção ////////////////////////////////////////////
+    function removerOcupacao($cod){
+        return $this->db->query("DELETE FROM ocupacaousuario WHERE `ocupacaousuario`.`CodOcupacao`= '$cod'");
+    }
+    
+    function removerServico($cod){
+        return $this->db->query("DELETE FROM servico WHERE CodServico = '$cod'");
+    }
+
+    function removerAtendimento($cod){
+        return $this->db->query("DELETE FROM atendimento WHERE CodAtendimento = '$cod'");
+    }
+
+    //////////////////////////////////////////// Alteração ////////////////////////////////////////////
+    function consultaCliAlteracao($cod){
+        return $this->db->query("SELECT * FROM cliente WHERE CodCli = '$cod'");
+    }
+
+    function atualterarCliente($cod, $Nome, $Senha, $E_mail, $Situacao, $CPF, $FoneRes, $FoneCom, $Celular, $Cidade, $Numero, $Estado, $Complemento, $CEP, $Logradouro){
+        return $this->db->query("UPDATE cliente SET 
+        Nome = '$cod',
+        Senha = '$Nome',         
+        E_mail = '$Senha',
+        Situacao = '$E_mail',
+        CPF = '$Situacao',
+        FoneRes = '$CPF',
+        FoneCom = '$FoneRes',
+        Celular = '$FoneCom',
+        Cidade = '$Celular',
+        Numero = '$Cidade',
+        Estado = '$Numero',
+        Complemento = '$Estado',
+        CEP = '$Complemento',
+        Logradouro = '$CEP'
+        WHERE CodCli = '$Logradouro'");
+    }
 }

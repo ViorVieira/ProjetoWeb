@@ -9,7 +9,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Consulta Atendimento</title>
 </head>
-<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
     <header class="topo">
@@ -40,6 +40,10 @@
                  echo "Hora: ", $so->selectHoraAtendimento($valor->CodOcupacao);
                  echo "<br>";
                  echo "Status: ", $so->selectStatusAtendimento($valor->ServicoRealizado);
+                 echo "<br>";
+                 echo "<a href=''>Alterar</a>";
+                 echo "<br>";
+                 echo "<a href='/ProjetoWeb/public/removeAtendimento/$valor->CodAtendimento'>Remover</a>";
                  echo "<br>";
                  echo "<br>";
              }

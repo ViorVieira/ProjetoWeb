@@ -31,7 +31,7 @@
             use App\Models\SelectOptions;
             $so = new SelectOptions();
              foreach ($ConAnimais->getResult() as $valor) {
-                 echo "<a href=''>$valor->Nome</a>";
+                 echo $valor->Nome;
                  echo "<br>";
                  echo "Tipo: ", $valor->Tipo;
                  echo "<br>";
@@ -44,6 +44,8 @@
                  echo "Data adoção: ", $valor->Data_Adocao;
                  echo "<br>";
                  echo "Dono: ", $so->SelectCliente($valor->CodCli);
+                 echo "<br>";
+                 echo "<a href=''>Alterar</a>";
                  echo "<br>";
                  echo "<br>";
              }

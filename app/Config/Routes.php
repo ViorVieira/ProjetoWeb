@@ -46,7 +46,6 @@ $routes->get("cadAtendimento", "Dados::cadastrarAtendimento");
 $routes->post("cadAtendimento", "Dados::cadastrarAtendimento2");
 
 $routes->get("ConAdm", "Dados::telaConsultaAdm");
-
 $routes->get("ConCli", "Dados::consultaCli");
 $routes->post("ConCli", "Dados::consultaCli2");
 $routes->get("ConAnimal", "Dados::consultaAnimais");
@@ -61,6 +60,13 @@ $routes->get("ConServico", "Dados::consultaServico");
 $routes->post("ConServico", "Dados::consultaServico2");
 $routes->get("ConAtendimento", "Dados::consultaAtendimento");
 $routes->post("ConAtendimento", "Dados::consultaAtendimento2");
+
+$routes->get("removeOcupacao/(:num)", "Dados::removerOcupacao/$1");
+$routes->post("removeOcupacao/(:num)", "Dados::removerOcupacao/$1");
+$routes->get("removeServico/(:num)", "Dados::removerServico/$1");
+$routes->post("removeServico/(:num)", "Dados::removerServico/$1");
+$routes->get("removeAtendimento/(:num)", "Dados::removerAtendimento/$1");
+$routes->post("removeAtendimento/(:num)", "Dados::removerAtendimento/$1");
 
 $routes->post("LoginFC", "Dados::loginCli2");
 $routes->get("LoginFC", "Dados::loginCli2");
