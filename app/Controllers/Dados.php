@@ -13,6 +13,7 @@ use CodeIgniter\Controller;
 class Dados extends BaseController
 {
 
+    //////////////////////////////////////////// Cadastro ////////////////////////////////////////////
     function cadastrarC()
     {
         return view("CadCli_View");
@@ -253,6 +254,7 @@ class Dados extends BaseController
         return view("Home_View");
     }
 
+    //////////////////////////////////////////// Consulta ////////////////////////////////////////////
     function telaConsultaAdm()
     {
         return view("ConsultaAdm");
@@ -261,14 +263,14 @@ class Dados extends BaseController
     function consultaCli()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConCli'] = $bq->consultaCli($this->request->getPost("Nome"));
+        $data['ConCli'] = $bq->consultaCli($this->request->getPost("NomeCli"));
         return view("ConsultaCli_View", $data);
     }
 
     function consultaCli2()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConCli'] = $bq->consultaCli($this->request->getPost("Nome"));
+        $data['ConCli'] = $bq->consultaCli($this->request->getPost("NomeCli"));
         return view("ConsultaCli_View", $data);
     }
 
@@ -385,6 +387,7 @@ class Dados extends BaseController
         return view("ConsultaAtendimento_View", $data);
     }
 
+    //////////////////////////////////////////// Remoção ////////////////////////////////////////////
     function removerOcupacao($cod){
         $bq = new Banco_Query();
         $bq->removerOcupacao($cod);
@@ -408,7 +411,86 @@ class Dados extends BaseController
         $data['ConAtendimento'] = $bq->consultaAtendimento($so->selectCodAnimal($this->request->getPost("Nome")));
         return view("ConsultaAtendimento_View",$data);
     }
+    
+    //////////////////////////////////////////// Alteração ////////////////////////////////////////////
+    function alterarCliente($cod){
+        $bq = new Banco_Query();
+        $data['ConCli'] = $bq->consultaCliAlteracao($cod);
+        return view("AlterarCliente_View",$data);
+    }
 
+    function alterarCliente2(){
+        $bq = new Banco_Query();
+        $data['ConCli'] = $bq->alterarCliente(
+            $this->request->getPost("CodCli"),
+            $this->request->getPost("Nome"),
+            $this->request->getPost("E_mail"),
+            $this->request->getPost("Situacao"),
+            $this->request->getPost("CPF"),
+            $this->request->getPost("FoneRes"),
+            $this->request->getPost("FoneCom"),
+            $this->request->getPost("Celular"),
+            $this->request->getPost("Cidade"),
+            $this->request->getPost("Numero"),
+            $this->request->getPost("Estado"),
+            $this->request->getPost("Complemento"),
+            $this->request->getPost("CEP"),
+            $this->request->getPost("Logradouro")
+        );
+        $bq = new \App\Models\Banco_Query();
+        $data['ConCli'] = $bq->consultaCli($this->request->getPost("NomeCli"));
+        return view("ConsultaCli_View", $data);
+    }
+
+    function alterarAnimais(){
+        return view("AlterarAnimais_View");
+    }
+
+    function alterarAnimais2(){
+        return view("AlterarAnimais_View");
+    }
+
+    function alterarUsuario(){
+        return view("AlterarUsuario_View");
+    }
+
+    function alterarUsuario2(){
+        return view("AlterarUsuario_View");
+    }
+
+    function alterarOcupacao(){
+        return view("AlterarOcupacao_View");
+    }
+
+    function alterarOcupacao2(){
+        return view("AlterarOcupacao_View");
+    }
+
+    function alterarTipoServico(){
+        return view("AlterarTipoServico_View");
+    }
+
+    function alterarTipoServico2(){
+        return view("AlterarTipoServico_View");
+    }
+
+    function alterarServico(){
+        return view("AlterarServico_View");
+    }
+
+    function alterarServico2(){
+        return view("AlterarServico_View");
+    }
+
+    function alterarAtendimento(){
+        return view("AlterarAtendimento_View");
+    }
+
+    function alterarAtendimento2(){
+        return view("AlterarAtendimento_View");
+    }
+
+    //////////////////////////////////////////// Login e Logout ////////////////////////////////////////////
     function loginCli2()
     { {
             // Carrega o helper de formulários e validação

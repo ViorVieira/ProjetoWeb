@@ -94,3 +94,32 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-06-20 23:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 23:35:00 --> Undefined variable $so
+in APPPATH\Views\AlterarCliente_View.php on line 48.
+ 1 APPPATH\Views\AlterarCliente_View.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $so', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarCliente_View.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarCliente_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarCliente_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(419): view('AlterarCliente_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarCliente('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 23:40:20 --> syntax error, unexpected token "<"
+in APPPATH\Views\AlterarCliente_View.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarCliente_View', [], true)
+ 3 APPPATH\Controllers\Dados.php(419): view('AlterarCliente_View', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarCliente('2')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 23:44:56 --> syntax error, unexpected identifier "https", expecting "," or ";"
+in APPPATH\Views\AlterarCliente_View.php on line 75.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarCliente_View', [], true)
+ 3 APPPATH\Controllers\Dados.php(419): view('AlterarCliente_View', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarCliente('2')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

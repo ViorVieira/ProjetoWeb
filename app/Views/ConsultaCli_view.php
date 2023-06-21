@@ -21,7 +21,7 @@
         <div class="container" style="padding-top: 2vh; margin-left: 3vh;">
             <form action="" method="post">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" name="Nome" placeholder="Nome Do Cliente"
+                    <input type="text" class="form-control" name="NomeCli" placeholder="Nome Do Cliente"
                         aria-label="Recipient's username" aria-describedby="button-addon2">
                     <input class="btn btn-outline-secondary" type="submit" id="button-addon2"></input>
                 </div>
@@ -51,7 +51,7 @@
                 echo "<br>";
                 echo "Logradouro:", $valor->Logradouro;
                 echo "<br>";
-                 echo "<a href='/ProjetoWeb/public/AltCli'>Alterar</a>";
+                 echo "<a href='/ProjetoWeb/public/AltCliente/$valor->CodCli'>Alterar</a>";
                 echo "<br>";
                 echo "<br>";
             }

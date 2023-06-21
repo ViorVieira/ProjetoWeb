@@ -101,22 +101,21 @@ class Banco_Query extends Model {
         return $this->db->query("SELECT * FROM cliente WHERE CodCli = '$cod'");
     }
 
-    function atualterarCliente($cod, $Nome, $Senha, $E_mail, $Situacao, $CPF, $FoneRes, $FoneCom, $Celular, $Cidade, $Numero, $Estado, $Complemento, $CEP, $Logradouro){
+    function alterarCliente($cod, $Nome, $E_mail, $Situacao, $CPF, $FoneRes, $FoneCom, $Celular, $Cidade, $Numero, $Estado, $Complemento, $CEP, $Logradouro){
         return $this->db->query("UPDATE cliente SET 
-        Nome = '$cod',
-        Senha = '$Nome',         
-        E_mail = '$Senha',
-        Situacao = '$E_mail',
-        CPF = '$Situacao',
-        FoneRes = '$CPF',
-        FoneCom = '$FoneRes',
-        Celular = '$FoneCom',
-        Cidade = '$Celular',
-        Numero = '$Cidade',
-        Estado = '$Numero',
-        Complemento = '$Estado',
-        CEP = '$Complemento',
-        Logradouro = '$CEP'
-        WHERE CodCli = '$Logradouro'");
+        Nome = '$Nome',         
+        E_mail = '$E_mail',
+        Situacao = '$Situacao',
+        CPF = '$CPF',
+        FoneRes = '$FoneRes',
+        FoneCom = '$FoneCom',
+        Celular = '$Celular',
+        Cidade = '$Cidade',
+        Numero = '$Numero',
+        Estado = '$Estado',
+        Complemento = '$Complemento',
+        CEP = '$CEP',
+        Logradouro = '$Logradouro'
+        WHERE CodCli = '$cod'");
     }
 }

@@ -14,32 +14,74 @@
         <header class="topo">
             <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
         </header>
-        <div id="sec1" class="container">
-            <form action="CadastrarC2" method="post">
-                <h1>Cadastrar Cliente</h1>
-                <label class="form-label">Situação:</label>
-                <select id="Situacao" class="form-control">
-                    <option value="0">Inativo</option>
-                    <option value="1">Ativo</option>
-                </select><br>
+        <div id="sec1" class="container" style="margin-top: 3vh;">
+            <?php
+            use App\Models\SelectOptions;
 
-                <input class="form-control" type="text" name="Nome" placeholder="Nome">
-                <input class="form-control" type="text" name="Senha" placeholder="Senha">
-                <input class="form-control" type="text" name="E_mail" placeholder="E-mail"><br>
-                <input class="form-control" type="text" name="CPF" placeholder="CPF">
-                <input class="form-control" type="text" name="FoneRes" placeholder="Fone Residencial">
-                <input class="form-control" type="text" name="FoneCom" placeholder="Fone Comercial"><br>
-                <input class="form-control" type="text" name="Celular" placeholder="Celular">
-                <input class="form-control" type="text" name="Cidade" placeholder="Cidade">
-                <input class="form-control" type="number" name="Numero" placeholder="Número"><br>
-                <input class="form-control" type="text" name="Estado" placeholder="Estado">
-                <input class="form-control" type="text" name="Complemento" placeholder="Complemento">
-                <input class="form-control" type="text" name="CEP" placeholder="CEP"><br>
-                <input class="form-control" type="text" name="Logradouro" placeholder="Logradouro">
-                <input class="form-control" type="submit" value="Confirmar" class="btn btn-primary"><br>
-                Se não é cliente mas um usário do sistema clique <a href="/ProjetoWeb/public/cadU">Aqui</a> para
-                cadastrar
-            </form>
+            $so = new SelectOptions();
+            foreach ($ConCli->getResult() as $valor) {
+                echo "
+                    <form action='' method='post'>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Código Cliente</span>
+                            <input type='text' class='form-control' name='CodCli' value='$valor->CodCli' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Situação</span>
+                            <input type='text' class='form-control' name='Situacao' value='$valor->Situacao' placeholder='0 - Inativo/ 1- Ativo' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Nome</span>
+                            <input type='text' class='form-control' name='Nome' value='$valor->Nome' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>E-mail</span>
+                            <input type='text' class='form-control' name='E_mail' value='$valor->E_mail' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>CPF</span>
+                            <input type='text' class='form-control' name='CPF' value='$valor->CPF' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Fone residencial</span>
+                            <input type='text' class='form-control' name='FoneRes' value='$valor->FoneRes' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Fone Comercial</span>
+                            <input type='text' class='form-control' name='FoneCom' value='$valor->FoneCom' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Celular</span>
+                            <input type='text' class='form-control' name='Celular' value='$valor->Celular' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Cidade</span>
+                            <input type='text' class='form-control' name='Cidade' value='$valor->Cidade' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Numero</span>
+                            <input type='text' class='form-control' name='Numero' value='$valor->Numero' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Estado</span>
+                            <input type='text' class='form-control' name='Estado' value='$valor->Estado' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Complemento</span>
+                            <input type='text' class='form-control' name='Complemento' value='$valor->Complemento' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>CEP</span>
+                            <input type='text' class='form-control' name='CEP' value='$valor->CEP' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <div class='input-group mb-3'>
+                            <span class='input-group-text' id='inputGroup-sizing-default'>Logradouro</span>
+                            <input type='text' class='form-control' name='Logradouro' value='$valor->Logradouro' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
+                        </div>
+                        <input class='form-control' type='submit' value='Alterar' class='btn btn-primary'><br>
+                    </form>";
+            }
+            ?>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

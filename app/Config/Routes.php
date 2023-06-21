@@ -68,6 +68,9 @@ $routes->post("removeServico/(:num)", "Dados::removerServico/$1");
 $routes->get("removeAtendimento/(:num)", "Dados::removerAtendimento/$1");
 $routes->post("removeAtendimento/(:num)", "Dados::removerAtendimento/$1");
 
+$routes->get("AltCliente/(:num)", "Dados::alterarCliente/$1");
+$routes->post("AltCliente/(:num)", "Dados::alterarCliente2");
+
 $routes->post("LoginFC", "Dados::loginCli2");
 $routes->get("LoginFC", "Dados::loginCli2");
 $routes->get("logout", "Dados::logout"); 
