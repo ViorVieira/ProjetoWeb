@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>Cadastrar Cliente</title>
+    <title>Alterar Cliente</title>
 </head>
 <link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
@@ -17,7 +17,6 @@
         <div id="sec1" class="container" style="margin-top: 3vh;">
             <?php
             use App\Models\SelectOptions;
-
             $so = new SelectOptions();
             foreach ($ConCli->getResult() as $valor) {
                 echo "
@@ -26,10 +25,17 @@
                             <span class='input-group-text' id='inputGroup-sizing-default'>Código Cliente</span>
                             <input type='text' class='form-control' name='CodCli' value='$valor->CodCli' aria-describedby='inputGroup-sizing-default'>
                         </div>
-                        <div class='input-group mb-3'>
-                            <span class='input-group-text' id='inputGroup-sizing-default'>Situação</span>
-                            <input type='text' class='form-control' name='Situacao' value='$valor->Situacao' placeholder='0 - Inativo/ 1- Ativo' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>
-                        </div>
+                        Situação cadastrada: 
+                            ";
+                            $so->selectSituacao($valor->Situacao);
+                            echo "
+                            <div class='input-group mb-3'>
+                                <label class='input-group-text' for='inputGroupSelect01'>Situação</label>
+                                <select class='form-select' id='inputGroupSelect01' name='Situacao'>
+                                    <option value='0'>Inativo</option>
+                                    <option value='1'>Ativo</option>
+                                </select>
+                            </div>
                         <div class='input-group mb-3'>
                             <span class='input-group-text' id='inputGroup-sizing-default'>Nome</span>
                             <input type='text' class='form-control' name='Nome' value='$valor->Nome' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default'>

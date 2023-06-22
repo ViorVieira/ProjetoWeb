@@ -8,31 +8,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Cadastrar Usuário</title>
 </head>
-<style>
-    #background {
-        background-color: rgb(230, 223, 223);
-    }
-
-    .topo {
-        text-align: center;
-        background-color: black;
-        height: 7vh;
-    }
-
-    .link {
-        color: rgb(177, 190, 202);
-        font-family: 'Segoe UI';
-        font-size: 18px;
-        text-decoration: none;
-        background-color: black;
-    }
-
-    #sec1 {
-        margin-left: 10vw;
-        margin-right: 10vw;
-        height: 93vh;
-    }
-</style>
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
     <header class="topo">
@@ -40,7 +16,7 @@
         <a class='link' href='/ProjetoWeb/public/LoginFC'>Login </a>
     </header>
     <main id="background">
-        <div id="sec1" class="container">
+        <div id="sec2" class="container">
             <form action="cadU2" method="post">
                 <h1>Cadastrar Usuário</h1>
                 <input class="form-control" type="text" name="Nome" placeholder="Nome">

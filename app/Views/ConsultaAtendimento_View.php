@@ -41,7 +41,7 @@
                  echo "<br>";
                  echo "Status: ", $so->selectStatusAtendimento($valor->ServicoRealizado);
                  echo "<br>";
-                 echo "<a href=''>Alterar</a>";
+                 echo "<a href='/ProjetoWeb/public/AltAtendimento/$valor->CodAtendimento'>Alterar</a>";
                  echo "<br>";
                  echo "<a href='/ProjetoWeb/public/removeAtendimento/$valor->CodAtendimento'>Remover</a>";
                  echo "<br>";

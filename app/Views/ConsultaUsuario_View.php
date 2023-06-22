@@ -9,7 +9,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Consulta Usuário</title>
 </head>
-<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
     <header class="topo">
@@ -21,7 +21,7 @@
         <div class="container" style="padding-top: 2vh; margin-left: 3vh;">
             <form action="" method="post">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" name="Nome" placeholder="Nome Do Usuário"
+                    <input type="text" class="form-control" name="NomeUsuario" placeholder="Nome Do Usuário"
                         aria-label="Recipient's username" aria-describedby="button-addon2">
                     <input class="btn btn-outline-secondary" type="submit" id="button-addon2"></input>
                 </div>
@@ -47,7 +47,7 @@
                  echo "<br>";
                  echo "Celular: ", $valor->Celular;
                  echo "<br>";
-                 echo "<a href=''>Alterar</a>";
+                 echo "<a href='/ProjetoWeb/public/AltUsuario/$valor->CodUsuario'>Alterar</a>";
                  echo "<br>";
                  echo "<br>";
              }

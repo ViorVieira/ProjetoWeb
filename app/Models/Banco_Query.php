@@ -118,4 +118,89 @@ class Banco_Query extends Model {
         Logradouro = '$Logradouro'
         WHERE CodCli = '$cod'");
     }
+
+    function consultaAnimalAlteracao($cod){
+        return $this->db->query("SELECT * FROM animal WHERE CodAnimal = '$cod'");
+    }
+
+    function AlterarAnimal($cod, $Nome, $Tipo, $Raca, $Idade, $Situacao, $Data_Adocao){
+        return $this->db->query("UPDATE `animal` SET 
+        Nome = '$Nome',
+        Tipo = '$Tipo',
+        Raca = '$Raca',
+        Idade = '$Idade',
+        Situacao = '$Situacao',
+        Data_Adocao = '$Data_Adocao' 
+        WHERE CodAnimal = '$cod'");
+    }
+
+    function consultaUsuarioAlteracao($cod){
+        return $this->db->query("SELECT * FROM usuario WHERE CodUsuario = '$cod'");
+    }
+
+    function AlterarUsuario($cod, $Nome, $CPF, $E_mail, $Funcao, $Tipo, $Situacao, $Data_Admissao, $FoneRes, $FoneCom, $Celular){
+        return $this->db->query("UPDATE usuario SET 
+        Nome = '$Nome',
+        CPF = '$CPF',
+        E_mail = '$E_mail',
+        Funcao = '$Funcao',
+        Tipo = '$Tipo',
+        Situacao = '$Situacao',
+        Data_Admissao = '$Data_Admissao',
+        FoneRes = '$FoneRes',
+        FoneCom = '$FoneCom',
+        Celular = '$Celular'
+        WHERE CodUsuario = '$cod'");
+    }
+
+    function consultaOcupacaoAlteracao($cod){
+        return $this->db->query("SELECT * FROM ocupacaousuario WHERE CodOcupacao = '$cod'");
+    }
+
+    function AlterarOcupacao($cod, $Data, $Hora, $CodUsuario){
+        return $this->db->query("UPDATE ocupacaousuario SET 
+        Data = '$Data',
+        Hora = '$Hora',
+        CodUsuario = '$CodUsuario'
+        WHERE CodOcupacao = '$cod'");
+    }
+
+    function consultaTipoServicoAlteracao($cod){
+        return $this->db->query("SELECT * FROM tiposervico WHERE CodTipoServ = '$cod'");
+    }
+
+    function AlterarTipoServico($cod, $Descricao, $Preco, $NomeServico){
+        return $this->db->query("UPDATE tiposervico SET 
+        Descricao = '$Descricao',
+        Preco = '$Preco',
+        NomeServico = '$NomeServico' 
+        WHERE CodTipoServ = '$cod'");
+    }
+
+    function consultaServicoAlteracao($cod){
+        return $this->db->query("SELECT * FROM servico WHERE CodServico = '$cod'");
+    }
+
+    function AlterarServico($cod, $Descricao, $CodTipoServ, $CodUsuario){
+        return $this->db->query("UPDATE servico SET 
+        Descricao = '$Descricao',
+        CodTipoServ = '$CodTipoServ',
+        CodUsuario = '$CodUsuario'
+        WHERE CodServico = '$cod'");
+    }
+
+    function consultaAtendimentoAlteracao($cod){
+        return $this->db->query("SELECT * FROM atendimento WHERE CodAtendimento = '$cod'");
+    }
+
+    function AlterarAtendimento($cod, $Preco, $Observacoes, $ServicoRealizado, $CodAnimal, $CodServico, $CodOcupacao){
+        return $this->db->query("UPDATE atendimento SET 
+        Preco = '$Preco',
+        Observacoes = '$Observacoes',
+        ServicoRealizado = '$ServicoRealizado',
+        CodAnimal = '$CodAnimal',
+        CodServico = '$CodServico',
+        CodOcupacao = '$CodOcupacao' 
+        WHERE CodAtendimento = '$cod'");
+    }
 }

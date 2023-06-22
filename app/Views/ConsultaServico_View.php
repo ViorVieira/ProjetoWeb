@@ -37,7 +37,7 @@
                  echo "<br>";
                  echo "Descrição: ", $valor->Descricao;
                  echo "<br>";
-                 echo "<a href=''>Alterar</a>";
+                 echo "<a href='/ProjetoWeb/public/AltServico/$valor->CodServico'>Alterar</a>";
                  echo "<br>";
                  echo "<a href='/ProjetoWeb/public/removeServico/$valor->CodServico'>Remover</a>";
                  echo "<br>";

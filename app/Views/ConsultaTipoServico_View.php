@@ -9,7 +9,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Consulta Tipo Serviço</title>
 </head>
-<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
     <header class="topo">
@@ -31,13 +31,13 @@
             use App\Models\SelectOptions;
             $so = new SelectOptions();
              foreach ($ConTipoServico->getResult() as $valor) {
-                 echo "<a href=''>$valor->NomeServico</a>";
+                 echo $valor->NomeServico;
                  echo "<br>";
                  echo "Descrição: ", $valor->Descricao;
                  echo "<br>";
                  echo "Preço: ", $valor->Preco;
                  echo "<br>";
-                 echo "<a href=''>Alterar</a>";
+                 echo "<a href='/ProjetoWeb/public/AltTipoServico/$valor->CodTipoServ'>Alterar</a>";
                  echo "<br>";
                  echo "<br>";
              }

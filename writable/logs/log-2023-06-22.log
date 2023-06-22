@@ -1,0 +1,431 @@
+CRITICAL - 2023-06-22 00:04:58 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Views\AlterarTipoServico_View.php on line 21.
+ 1 APPPATH\Views\AlterarTipoServico_View.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarTipoServico_View.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarTipoServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarTipoServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(521): view('AlterarTipoServico_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarTipoServico('7')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:11:25 --> Call to undefined method CodeIgniter\Router\RouteCollection::pos()
+in APPPATH\Config\Routes.php on line 82.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 00:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 00:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 00:20:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dados.php(548): CodeIgniter\Model->__call('consulta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarAtendimento('11')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:20:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dados.php(548): CodeIgniter\Model->__call('consulta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarAtendimento('11')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:28:57 --> Undefined variable $so
+in APPPATH\Views\AlterarServico_View.php on line 33.
+ 1 APPPATH\Views\AlterarServico_View.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $so', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(539): view('AlterarServico_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:36:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Views\AlterarServico_View.php(29): CodeIgniter\Model->__call('selectTipoNomeServico', [...])
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 7 APPPATH\Controllers\Dados.php(539): view('AlterarServico_View', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico('11')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:41:33 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:42:48 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:43:41 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:43:42 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:43:49 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:47:33 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:49:19 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:49:20 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:50:28 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:50:41 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:50:49 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 00:50:54 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:02:42 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 31.
+ 1 APPPATH\Views\AlterarServico_View.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:05:03 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:05:52 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:10:02 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:10:30 --> Undefined variable $ConCli
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConCli', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:10:49 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:10:53 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:12:17 --> Undefined variable $cod
+in APPPATH\Views\AlterarServico_View.php on line 26.
+ 1 APPPATH\Views\AlterarServico_View.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cod', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:13:27 --> Class "Banco_Query" not found
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(539): view('AlterarServico_View', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico('19')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:13:48 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 25.
+ 1 APPPATH\Views\AlterarServico_View.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:14:10 --> Call to a member function getResult() on string
+in APPPATH\Views\AlterarServico_View.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:14:29 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:25:07 --> Undefined variable $ConTipoServico
+in APPPATH\Views\AlterarServico_View.php on line 22.
+ 1 APPPATH\Views\AlterarServico_View.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConTipoServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(539): view('AlterarServico_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico('19')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:25:15 --> Undefined variable $ConTipoServico
+in APPPATH\Views\AlterarServico_View.php on line 22.
+ 1 APPPATH\Views\AlterarServico_View.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConTipoServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(539): view('AlterarServico_View', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:25:37 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 22.
+ 1 APPPATH\Views\AlterarServico_View.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:29:55 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:30:57 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:32:16 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 23.
+ 1 APPPATH\Views\AlterarServico_View.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:33:31 --> Undefined variable $ConServico
+in APPPATH\Views\AlterarServico_View.php on line 24.
+ 1 APPPATH\Views\AlterarServico_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConServico', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarServico_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarServico_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(543): view('AlterarServico_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarServico2('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:44:37 --> Class "SelectOptions" not found
+in APPPATH\Views\AlterarAtendimento_View.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarAtendimento_View', [], true)
+ 4 APPPATH\Controllers\Dados.php(549): view('AlterarAtendimento_View', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarAtendimento('3')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 01:46:37 --> Undefined variable $ConAtendimento
+in APPPATH\Views\AlterarAtendimento_View.php on line 24.
+ 1 APPPATH\Views\AlterarAtendimento_View.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConAtendimento', 'C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarAtendimento_View.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProjetoWeb\\app\\Views\\AlterarAtendimento_View.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('AlterarAtendimento_View', [], true)
+ 5 APPPATH\Controllers\Dados.php(553): view('AlterarAtendimento_View')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dados->alterarAtendimento2('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dados))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

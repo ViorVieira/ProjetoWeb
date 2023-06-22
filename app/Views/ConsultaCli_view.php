@@ -9,7 +9,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Consulta Clientes</title>
 </head>
-<link rel="stylesheet" href="../CSS/Style.css">
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
     <header class="topo">
@@ -39,6 +39,10 @@
                 echo "<br>";
                 echo "CPF: ", $valor->CPF;
                 echo "<br>";
+                echo "Fone Residencial: ", $valor->FoneRes;
+                echo "<br>";
+                echo "Fone Comercial: ", $valor->FoneCom;
+                echo "<br>";
                 echo "Celular: ", $valor->Celular;
                 echo "<br>";
                 echo "Cidade: ", $valor->Cidade;
@@ -46,6 +50,8 @@
                 echo "Número: ", $valor->Numero;
                 echo "<br>";
                 echo "Estado: ", $valor->Estado;
+                echo "<br>";
+                echo "Complemento: ", $valor->Complemento;
                 echo "<br>";
                 echo "CEP: ", $valor->CEP;
                 echo "<br>";

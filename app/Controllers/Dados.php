@@ -278,28 +278,28 @@ class Dados extends BaseController
     function consultaAnimais()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("Nome"));
+        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("NomeAnimal"));
         return view("ConsultaAnimal_View", $data);
     }
 
     function consultaAnimais2()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("Nome"));
+        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("NomeAnimal"));
         return view("ConsultaAnimal_View", $data);
     }
 
     function consultaUsuario()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("Nome"));
+        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("NomeUsuario"));
         return view("ConsultaUsuario_View", $data);
     }
 
     function consultaUsuario2()
     {
         $bq = new \App\Models\Banco_Query();
-        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("Nome"));
+        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("NomeUsuario"));
         return view("ConsultaUsuario_View", $data);
     }
 
@@ -442,48 +442,111 @@ class Dados extends BaseController
         return view("ConsultaCli_View", $data);
     }
 
-    function alterarAnimais(){
-        return view("AlterarAnimais_View");
+    function alterarAnimal($cod){
+        $bq = new Banco_Query();
+        $data['ConAnimal'] = $bq->consultaAnimalAlteracao($cod);
+        return view("AlterarAnimal_View", $data);
     }
 
-    function alterarAnimais2(){
-        return view("AlterarAnimais_View");
+    function alterarAnimal2(){
+        $bq = new Banco_Query();
+        $bq->AlterarAnimal(
+            $this->request->getPost("CodAnimal"),
+            $this->request->getPost("Nome"),
+            $this->request->getPost("Tipo"),
+            $this->request->getPost("Raca"),
+            $this->request->getPost("Idade"),
+            $this->request->getPost("Situacao"),
+            $this->request->getPost("Data_Adocao")
+            
+        );
+        $data['ConAnimais'] = $bq->consultaAnimais($this->request->getPost("NomeAnimal"));
+        return view("ConsultaAnimal_View", $data);
     }
 
-    function alterarUsuario(){
-        return view("AlterarUsuario_View");
+    function alterarUsuario($cod){
+        $bq = new Banco_Query();
+        $data['ConUsuario'] = $bq->consultaUsuarioAlteracao($cod);
+        return view("AlterarUsuario_View", $data);
     }
 
     function alterarUsuario2(){
-        return view("AlterarUsuario_View");
+        $bq = new Banco_Query();
+        if ($this->request->getPost("Funcao") == "5"){
+            $TipoUser = "1";
+        } else if ($this->request->getPost("Funcao") != "5"){ 
+            $TipoUser = '0';
+        }
+        $bq = new Banco_Query();
+            $bq->AlterarUsuario(
+                $this->request->getPost("CodUsuario"),
+                $this->request->getPost("Nome"),
+                $this->request->getPost("CPF"),
+                $this->request->getPost("E_mail"),
+                $this->request->getPost("Funcao"),
+                $TipoUser,
+                $this->request->getPost("Situacao"),
+                $this->request->getPost("Data_Admissao"),
+                $this->request->getPost("FoneRes"),
+                $this->request->getPost("FoneCom"),
+                $this->request->getPost("Celular"));
+
+        
+        $data['ConUsuario'] = $bq->consultaUsuario($this->request->getPost("NomeUsuario"));
+        return view("ConsultaUsuario_View", $data);
     }
 
-    function alterarOcupacao(){
-        return view("AlterarOcupacao_View");
+    function alterarOcupacao($cod){
+        $bq = new Banco_Query();
+        $data['ConOcupacao'] = $bq->consultaOcupacaoAlteracao($cod);
+        return view("AlterarOcupacao_View", $data);
     }
 
     function alterarOcupacao2(){
-        return view("AlterarOcupacao_View");
+        $bq = new Banco_Query();
+        $so = new SelectOptions();
+        $bq->AlterarOcupacao(
+            $this->request->getPost("CodOcupacao"),
+            $this->request->getPost("Data"),
+            $this->request->getPost("Hora"),
+            $this->request->getPost("CodUsuario")
+        );
+        $data['ConOcupacao'] = $bq->consultaOcupacao($so->selectCodUsuario($this->request->getPost("Nome")));
+        return view("ConsultaOcupacao_View", $data);
     }
 
-    function alterarTipoServico(){
-        return view("AlterarTipoServico_View");
+    function alterarTipoServico($cod){
+        $bq = new Banco_Query();
+        $data['ConTipoServico'] = $bq->consultaTipoServicoAlteracao($cod);
+        return view("AlterarTipoServico_View", $data);
     }
 
     function alterarTipoServico2(){
-        return view("AlterarTipoServico_View");
+        $bq = new Banco_Query();
+        $bq->AlterarTipoServico(
+            $this->request->getPost("CodTipoServ"),
+            $this->request->getPost("Descricao"),
+            $this->request->getPost("Preco"),
+            $this->request->getPost("NomeServico")
+        );
+        $data['ConTipoServico'] = $bq->consultaTipoServico($this->request->getPost("Nome"));
+        return view("ConsultaTipoServico_View", $data);
     }
 
-    function alterarServico(){
-        return view("AlterarServico_View");
+    function alterarServico($cod){
+        $bq = new Banco_Query();
+        $data['ConServico'] = $bq->consultaServicoAlteracao($cod);
+        return view("AlterarServico_View", $data);
     }
 
     function alterarServico2(){
         return view("AlterarServico_View");
     }
 
-    function alterarAtendimento(){
-        return view("AlterarAtendimento_View");
+    function alterarAtendimento($cod){
+        $bq = new Banco_Query();
+        $data['ConAtendimento'] = $bq->consultaAtendimentoAlteracao($cod);
+        return view("AlterarAtendimento_View", $data);
     }
 
     function alterarAtendimento2(){

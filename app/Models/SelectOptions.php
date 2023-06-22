@@ -127,6 +127,16 @@ class SelectOptions extends Model
         }
     }
 
+    function selectNomeTipoServico($cod){
+        $Con = mysqli_connect("127.0.0.1:3306", "root", "");
+        mysqli_select_db($Con,"projetoweb");
+        $res = mysqli_query($Con, "SELECT NomeServico FROM tiposervico WHERE CodTipoServ = '$cod'");
+        while($dados = mysqli_fetch_array($res)){
+           $nome = $dados['NomeServico'];
+           echo $nome;
+        }
+    }
+
     function selectCodAnimal($nome){
         $Con = mysqli_connect("127.0.0.1:3306", "root", "");
         mysqli_select_db($Con,"projetoweb");
@@ -216,4 +226,21 @@ class SelectOptions extends Model
             echo "Realizado";
         }
     }
+
+    // Select - (Alteração Ocupação) 
+    function selectUsuarioOptionsOcupacao($cod){
+        $Con = mysqli_connect("127.0.0.1:3306", "root", "");
+        mysqli_select_db($Con,"projetoweb");
+        $res = mysqli_query($Con, "SELECT * FROM ocupacaousuario WHERE CodOcupacao  = '$cod'");
+        while($dados = mysqli_fetch_array($res)){
+           $codU = $dados['CodUsuario'];
+           
+           $res2 = mysqli_query($Con, "SELECT * FROM usuario WHERE CodUsuario = '$codU'");
+            while ($dados2 = mysqli_fetch_array($res2)) {
+                $nomeU = $dados2['Nome'];
+            }
+            echo "<option value='$codU'>$nomeU</option>";
+        }
+    }
+
 }

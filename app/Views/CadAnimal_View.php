@@ -7,31 +7,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Cadastrar Animal</title>
 </head>
-<style>
-    #background {
-        background-color: rgb(230, 223, 223);
-    }
-
-    .topo {
-        text-align: center;
-        background-color: black;
-        height: 7vh;
-    }
-
-    .link {
-        color: rgb(177, 190, 202);
-        font-family: 'Segoe UI';
-        font-size: 18px;
-        text-decoration: none;
-        background-color: black;
-    }
-
-    #sec1 {
-        margin-left: 10vw;
-        margin-right: 10vw;
-        height: 100vh;
-    }
-</style>
+<link rel="stylesheet" href="<?php echo base_url("/CSS/Style.css") ?>">
 
 <body>
 
@@ -39,7 +15,7 @@
         <a class="link" href="/ProjetoWeb/public">Home</a> &nbsp;
     </header>
     <main id="background">
-        <div id="sec1" class="container"><br>
+        <div id="sec2" class="container"><br>
             <form action="CadA2" method="post">
                 Situação:
                 <select class="form-control" name="Situacao">

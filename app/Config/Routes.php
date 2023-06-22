@@ -70,6 +70,23 @@ $routes->post("removeAtendimento/(:num)", "Dados::removerAtendimento/$1");
 
 $routes->get("AltCliente/(:num)", "Dados::alterarCliente/$1");
 $routes->post("AltCliente/(:num)", "Dados::alterarCliente2");
+$routes->get("AltAnimal/(:num)", "Dados::alterarAnimal/$1");
+$routes->post("AltAnimal/(:num)", "Dados::alterarAnimal2/$1");
+$routes->get("AltUsuario/(:num)", "Dados::alterarUsuario/$1");
+$routes->post("AltUsuario/(:num)", "Dados::alterarUsuario2/$1");
+$routes->get("AltOcupacao/(:num)", "Dados::alterarOcupacao/$1");
+$routes->post("AltOcupacao/(:num)", "Dados::alterarOcupacao2/$1");
+$routes->get("AltOcupacao/(:num)", "Dados::alterarOcupacao/$1");
+$routes->post("AltOcupacao/(:num)", "Dados::alterarOcupacao2/$1");
+$routes->get("AltTipoServico/(:num)", "Dados::alterarTipoServico/$1");
+$routes->post("AltTipoServico/(:num)", "Dados::alterarTipoServico2/$1");
+
+$routes->get("AltServico/(:num)", "Dados::alterarServico/$1");
+$routes->post("AltServico/(:num)", "Dados::alterarServico2/$1");
+
+$routes->get("AltAtendimento/(:num)", "Dados::alterarAtendimento/$1");
+$routes->post("AltAtendimento/(:num)", "Dados::alterarAtendimento2/$1");
+
 
 $routes->post("LoginFC", "Dados::loginCli2");
 $routes->get("LoginFC", "Dados::loginCli2");
